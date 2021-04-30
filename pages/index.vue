@@ -103,27 +103,27 @@
           <h5 class="navigation__mobile-text">Products</h5>
         </a>
         <a
-          href="#products"
+          href="#features"
           @click="showNavBar = false"
           style="text-decoration: none"
           ><h5 class="navigation__mobile-text">Features</h5></a
         >
         <a
-          href="#products"
+          href="#steps"
           @click="showNavBar = false"
           style="text-decoration: none"
         >
           <h5 class="navigation__mobile-text">Preparation</h5></a
         >
         <a
-          href="#products"
+          href="#recipes"
           @click="showNavBar = false"
           style="text-decoration: none"
         >
           <h5 class="navigation__mobile-text">Recipes</h5></a
         >
         <a
-          href="#products"
+          href="#testimonials"
           @click="showNavBar = false"
           style="text-decoration: none"
         >
@@ -131,7 +131,11 @@
         </a>
       </div>
     </nav>
-    <div class="buy-now-button__mobile" @click="openBuyNowSection('mobile')">
+    <div
+      class="buy-now-button__mobile"
+      @click="openBuyNowSection('mobile')"
+      v-show="showBottomBuyNow"
+    >
       Buy Now
       <span>
         <img
@@ -1296,20 +1300,14 @@ export default {
       this.showNavBar = !this.showNavBar;
       var backToTop = document.getElementById("back-to-top__container");
       backToTop.classList.remove("back-to-top__container--show");
-      var buyNowButton = document.getElementsByClassName(
-        "buy-now-button__mobile"
-      );
-      buyNowButton[0].style.display = "none";
+      this.showBottomBuyNow = false;
     },
 
     closeMobileNavigation() {
       this.showNavBar = false;
       var backToTop = document.getElementById("back-to-top__container");
       backToTop.classList.add("back-to-top__container--show");
-      var buyNowButton = document.getElementsByClassName(
-        "buy-now-button__mobile"
-      );
-      buyNowButton[0].style.display = "block";
+      this.showBottomBuyNow = true;
     },
 
     activateRecipe(id) {
@@ -1329,6 +1327,7 @@ export default {
   data() {
     return {
       showNavBar: false,
+      showBottomBuyNow: true,
       indianRecipes: [
         {
           cuisine: "indian",
