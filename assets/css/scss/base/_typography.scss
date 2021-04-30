@@ -1,0 +1,496 @@
+@font-face {
+  font-family: "CaveatBrush";
+  src: url(~assets/scss/CaveatBrush-Regular.woff) format("woff");
+  font-style: normal;
+  font-display: swap;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "RobotoSlab";
+  src: url(~assets/scss/RobotoSlab-Medium.woff) format("woff");
+  font-style: normal;
+  font-display: swap;
+  font-stretch: normal;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.product__right-side-content--heading {
+  font-size: 6rem;
+  line-height: 6.6rem;
+  text-align: center;
+  color: $color-cherry;
+  margin-top: calc(13rem - 8.7rem);
+  font-family: "CaveatBrush";
+  font-weight: normal;
+  padding: 0 0.5rem;
+}
+
+.product__right-side-content--sub-text {
+  font-size: 1.4rem;
+  font-family: "RobotoSlab";
+  font-weight: 500;
+  color: $color-black;
+  padding: 2rem;
+  text-align: center;
+  width: 34.5rem;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  @media (min-width: 992px) {
+    width: 37.7rem;
+    margin: 0.2rem 7.5rem 0 8rem;
+  }
+}
+
+.product-item__right-part {
+  display: flex;
+  flex-direction: column;
+
+  max-width: 40rem;
+  &--heading {
+    font-family: "CaveatBrush";
+    color: $color-cherry;
+    font-size: 4rem;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+
+    @media (min-width: 767px) {
+      font-size: 6rem;
+    }
+  }
+  &--description {
+    font-family: "RobotoSlab";
+    font-size: 1.2rem;
+    color: $color-black;
+    font-weight: 500;
+    line-height: 1.57;
+    text-align: center;
+    @media (min-width: 767px) {
+      font-size: 1.4rem;
+    }
+  }
+  &--add-on {
+    &__top-text {
+      top: -5px;
+      left: 50%;
+      position: absolute;
+      color: $color-white;
+      background-color: $color-cherry;
+      padding: 0.5rem;
+      text-align: center;
+      border-radius: 1rem;
+      font-size: 1.2rem;
+      font-weight: 500;
+      font-family: "RobotoSlab";
+      width: 8rem;
+
+      @media (max-width: 767px) {
+        top: -5px;
+        left: 45%;
+        padding: 0.5rem;
+        font-size: 1rem;
+      }
+    }
+    &-text {
+      top: 20%;
+      left: 12%;
+      right: 0;
+      margin: 0 auto;
+      max-width: 75%;
+      position: absolute;
+      color: $color-black;
+      text-align: center;
+      font-size: 0.8rem;
+      padding: 1.2rem 2rem;
+      font-weight: 500;
+      font-family: "RobotoSlab";
+      @media (min-width: 375px) {
+        font-size: 1rem;
+      }
+
+      @media (min-width: 767px) {
+        top: 30%;
+        font-size: 1rem;
+        padding: 0.7rem 2rem;
+      }
+
+      @media (min-width: 1400px) {
+        top: 30%;
+        font-size: 1.1rem;
+      }
+    }
+  }
+}
+
+.features__heading {
+  font-family: "CaveatBrush";
+  color: $color-cherry;
+  text-align: center;
+  font-size: 4rem;
+  line-height: 4rem;
+
+  @media (min-width: 767px) {
+    font-size: 6rem;
+    line-height: 4rem;
+  }
+
+  @media (min-width: 992px) {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+
+  @media (min-width: 1200px) {
+    line-height: 6.6rem;
+    font-size: 6rem;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+    text-align: center;
+  }
+}
+
+.feature-text {
+  font-family: "RobotoSlab";
+  font-weight: 500;
+  letter-spacing: normal;
+  color: $color-black;
+  text-align: center;
+  font-size: 1.6rem;
+  line-height: 1.2em;
+  padding-top: 1rem;
+
+  @media (min-width: 767px) {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  @media (min-width: 992px) {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    padding-top: 1.2rem;
+  }
+
+  @media (min-width: 1440px) {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    padding-top: 1.2rem;
+  }
+}
+
+.features__disclaimer-text {
+  color: $color-black;
+  font-family: "RobotoSlab";
+  opacity: 0.4;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 2.1rem;
+
+  @media (min-width: 767px) {
+    font-size: 1.2rem;
+  }
+
+  @media (min-width: 992px) {
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+}
+
+.steps__heading {
+  font-family: "CaveatBrush";
+  font-size: 4rem;
+  line-height: 4rem;
+  width: 22.5rem;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: $color-cherry;
+
+  @media (min-width: 992px) {
+    width: 78.4rem;
+    font-size: 6rem;
+    line-height: 6.6rem;
+  }
+}
+
+.step--text {
+  font-size: 1.4rem;
+  color: $color-black;
+  line-height: 2.2rem;
+  text-align: center;
+  font-weight: 500;
+  font-family: "RobotoSlab";
+  padding-top: 2rem;
+  height: 15rem;
+
+  @media (min-width: 992px) {
+    height: 12rem;
+  }
+
+  @media (min-width: 1200px) {
+    height: 10rem;
+  }
+}
+
+.recipes__heading {
+  color: $color-cherry;
+  font-size: 4rem;
+  font-weight: 400;
+  line-height: 4rem;
+  text-align: center;
+  font-family: "CaveatBrush";
+  max-width: 600px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  padding-bottom: 4rem;
+
+  @media (min-width: 992px) {
+    line-height: 6rem;
+    font-size: 6rem;
+  }
+}
+
+.recipes__cuisines {
+  color: $color-black;
+  font-family: "RobotoSlab";
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.56;
+  // border-bottom: 2px solid $color-cherry;
+
+  &:hover {
+    color: $color-black;
+  }
+}
+
+.recipes {
+  .nav-item {
+    .nav-link {
+      padding: 0;
+      margin: 0 1rem;
+    }
+
+    .active {
+      color: $color-cherry;
+      border-bottom: 2px solid $color-cherry;
+      border-width: medium;
+    }
+  }
+}
+
+.recipe {
+  &--title {
+    font-family: "CaveatBrush";
+    color: $color-white;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    line-height: 1.13;
+    @media (min-width: 600px) {
+      margin-bottom: 3rem;
+      font-size: 4rem;
+      line-height: 1.13;
+    }
+    @media (min-width: 992px) {
+      margin-bottom: 2rem;
+      font-size: 4rem;
+      line-height: 1.13;
+    }
+  }
+
+  &__cooking-time--text,
+  &__serving--text {
+    color: $color-white;
+    font-family: "RobotoSlab";
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.56;
+
+    @media (min-width: 600px) {
+      font-size: 1.4rem;
+    }
+
+    @media (min-width: 992px) {
+      font-size: 1.6rem;
+    }
+  }
+
+  &__method--heading {
+    font-family: "RobotoSlab";
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    color: $color-cherry;
+  }
+
+  &__method--sub-text {
+    font-family: "RobotoSlab";
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: $color-black;
+  }
+}
+
+.testimonials__heading {
+  font-size: 4rem;
+  color: $color-cherry;
+  font-family: "CaveatBrush";
+  text-align: center;
+  line-height: 4rem;
+  padding-bottom: 4rem;
+  @media (min-width: 992px) {
+    font-size: 6rem;
+    line-height: 6rem;
+  }
+}
+
+.testimonial {
+  &__text {
+    padding: 0 2rem;
+    &--main {
+      color: $color-black;
+      font-size: 1.4rem;
+      font-family: "RobotoSlab";
+      text-align: center;
+      line-height: 2.2rem;
+      font-weight: 500;
+    }
+  }
+
+  &__author {
+    font-family: "RobotoSlab";
+    font-weight: 500;
+    &--name {
+      color: $color-cherry;
+      font-size: 2rem;
+      line-height: 1.25;
+      text-align: center;
+    }
+    &--designation {
+      color: $color-black;
+      font-size: 1.2rem;
+      line-height: normal;
+      opacity: 0.4;
+      text-align: center;
+    }
+  }
+}
+
+.social-media__left-part {
+  font-family: "CaveatBrush";
+
+  @media (max-width: 600px) {
+    margin-top: 4rem;
+  }
+
+  &--white {
+    color: $color-white;
+    display: inline;
+    font-weight: normal;
+    font-size: 4rem;
+    line-height: 4rem;
+    padding-right: 0.8rem;
+
+    @media (min-width: 992px) {
+      line-height: 6rem;
+      font-size: 5rem;
+      padding-right: 0.8rem;
+    }
+
+    @media (min-width: 1200px) {
+      line-height: 6.6rem;
+      font-size: 6rem;
+      padding-right: 1rem;
+    }
+  }
+
+  &--yellow {
+    color: $color-golden-yellow;
+    display: inline;
+    font-weight: normal;
+    font-size: 4rem;
+    line-height: 4rem;
+    @media (min-width: 992px) {
+      line-height: 6rem;
+      font-size: 5rem;
+    }
+
+    @media (min-width: 1200px) {
+      line-height: 6.6rem;
+      font-size: 6rem;
+    }
+  }
+}
+
+.footer-bottom__left-part {
+  color: $color-white;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  font-family: "RobotoSlab";
+  font-weight: 500;
+  text-align: center;
+
+  @media (min-width: 992px) {
+    font-size: 1.2rem;
+    line-height: normal;
+  }
+
+  &--mail-image,
+  &--phone-image {
+    &:not(:last-child) {
+      padding-right: 1.2rem;
+      @media (min-width: 992px) {
+        padding-right: 1rem;
+      }
+    }
+  }
+}
+
+.footer-bottom__right-part--text {
+  color: $color-white;
+  font-size: 1rem;
+  line-height: 2.1rem;
+  font-family: "RobotoSlab";
+  font-weight: 500;
+  opacity: 0.9;
+  text-align: center;
+  padding-top: 6rem;
+  max-width: 56vw;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media (min-width: 992px) {
+    padding-top: 7.4rem;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+  }
+
+  @media (min-width: 1200px) {
+    padding-top: 0;
+  }
+}
