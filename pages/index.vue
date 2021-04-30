@@ -1750,3 +1750,6 @@ export default {
   },
 };
 </script>
+<style lang="scss">
+@import "~/assets/css/scss/main.scss";
+</style>
