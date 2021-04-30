@@ -12,8 +12,8 @@ export default {
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { hid: "description", name: "description", content: "" }
-    ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+    ]
+    // link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -35,5 +35,32 @@ export default {
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {}
+  build: {
+    build: {
+      /*
+       ** You can extend webpack config here
+       */
+      transpile: ["vee-validate/dist/rules"],
+      babel: {
+        presets({ isServer }) {
+          return [
+            [
+              require.resolve("@nuxt/babel-preset-app"),
+              // require.resolve('@nuxt/babel-preset-app-edge'), // For nuxt-edge users
+              {
+                buildTarget: isServer ? "server" : "client",
+                corejs: { version: 3 }
+              }
+            ]
+          ];
+        }
+      },
+      extend(config, ctx) {
+        config.module.rules.push({
+          test: /\.md$/,
+          loader: "raw-loader"
+        });
+      }
+    }
+  }
 };
