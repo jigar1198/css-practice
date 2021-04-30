@@ -102,10 +102,33 @@
         >
           <h5 class="navigation__mobile-text">Products</h5>
         </a>
-        <h5 class="navigation__mobile-text">Features</h5>
-        <h5 class="navigation__mobile-text">Preparation</h5>
-        <h5 class="navigation__mobile-text">Recipes</h5>
-        <h5 class="navigation__mobile-text">Testimonials</h5>
+        <a
+          href="#products"
+          @click="showNavBar = false"
+          style="text-decoration: none"
+          ><h5 class="navigation__mobile-text">Features</h5></a
+        >
+        <a
+          href="#products"
+          @click="showNavBar = false"
+          style="text-decoration: none"
+        >
+          <h5 class="navigation__mobile-text">Preparation</h5></a
+        >
+        <a
+          href="#products"
+          @click="showNavBar = false"
+          style="text-decoration: none"
+        >
+          <h5 class="navigation__mobile-text">Recipes</h5></a
+        >
+        <a
+          href="#products"
+          @click="showNavBar = false"
+          style="text-decoration: none"
+        >
+          <h5 class="navigation__mobile-text">Testimonials</h5>
+        </a>
       </div>
     </nav>
     <div class="buy-now-button__mobile" @click="openBuyNowSection('mobile')">
