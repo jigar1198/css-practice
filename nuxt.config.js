@@ -36,31 +36,29 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    build: {
-      /*
-       ** You can extend webpack config here
-       */
-      transpile: ["vee-validate/dist/rules"],
-      babel: {
-        presets({ isServer }) {
-          return [
-            [
-              require.resolve("@nuxt/babel-preset-app"),
-              // require.resolve('@nuxt/babel-preset-app-edge'), // For nuxt-edge users
-              {
-                buildTarget: isServer ? "server" : "client",
-                corejs: { version: 3 }
-              }
-            ]
-          ];
-        }
-      },
-      extend(config, ctx) {
-        config.module.rules.push({
-          test: /\.md$/,
-          loader: "raw-loader"
-        });
+    /*
+     ** You can extend webpack config here
+     */
+    transpile: ["vee-validate/dist/rules"],
+    babel: {
+      presets({ isServer }) {
+        return [
+          [
+            require.resolve("@nuxt/babel-preset-app"),
+            // require.resolve('@nuxt/babel-preset-app-edge'), // For nuxt-edge users
+            {
+              buildTarget: isServer ? "server" : "client",
+              corejs: { version: 3 }
+            }
+          ]
+        ];
       }
+    },
+    extend(config, ctx) {
+      config.module.rules.push({
+        test: /\.md$/,
+        loader: "raw-loader"
+      });
     }
   }
 };
