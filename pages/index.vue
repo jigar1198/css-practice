@@ -1206,6 +1206,14 @@ import "vue-slick-carousel/dist/vue-slick-carousel.css";
 import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
 export default {
   head: {
+    meta: [
+      { charset: "utf-8" },
+      {
+        name: "viewport",
+        content:
+          "width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0",
+      },
+    ],
     link: [
       {
         href:
@@ -1657,6 +1665,7 @@ export default {
           },
         ],
       },
+
       recipesSettings: {
         infinite: false,
         slidesToShow: 3,
