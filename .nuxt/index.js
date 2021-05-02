@@ -63,7 +63,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"css_side_project","htmlAttrs":{"lang":"en"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""}],"link":[],"style":[],"script":[]},
+    head: {"title":"css_side_project","htmlAttrs":{"lang":"en"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""}],"script":[{"src":"https:\u002F\u002Fuse.fontawesome.com\u002F2c3e198de1.js"},{"src":"https:\u002F\u002Fcode.jquery.com\u002Fjquery-3.2.1.slim.min.js","integrity":"sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr\u002FrE9\u002FQpg6aAZGJwFDMVNA\u002FGpGFF93hXpG5KkN","crossorigin":"anonymous"},{"src":"https:\u002F\u002Fcdnjs.cloudflare.com\u002Fajax\u002Flibs\u002Fpopper.js\u002F1.12.9\u002Fumd\u002Fpopper.min.js","integrity":"sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K\u002FScQsAP7hUibX39j7fakFPskvXusvfa0b4Q","crossorigin":"anonymous"},{"src":"https:\u002F\u002Fmaxcdn.bootstrapcdn.com\u002Fbootstrap\u002F4.0.0\u002Fjs\u002Fbootstrap.min.js","integrity":"sha384-JZR6Spejh4U02d8jOt6vLEHfe\u002FJQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl","crossorigin":"anonymous"}],"link":[{"href":"https:\u002F\u002Fmaxcdn.bootstrapcdn.com\u002Fbootstrap\u002F3.4.1\u002Fcss\u002Fbootstrap.min.css","rel":"stlyesheet"}],"style":[]},
 
     router,
     nuxt: {

@@ -1,7 +1,5 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
-  // target: "static",
-  mode: "universal",
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
@@ -13,8 +11,37 @@ export default {
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { hid: "description", name: "description", content: "" }
+    ],
+    script: [
+      { src: "https://use.fontawesome.com/2c3e198de1.js" },
+      {
+        src: "https://code.jquery.com/jquery-3.2.1.slim.min.js",
+        integrity:
+          "sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN",
+        crossorigin: "anonymous"
+      },
+      {
+        src:
+          "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js",
+        integrity:
+          "sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q",
+        crossorigin: "anonymous"
+      },
+      {
+        src:
+          "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js",
+        integrity:
+          "sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl",
+        crossorigin: "anonymous"
+      }
+    ],
+    link: [
+      {
+        href:
+          "https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css",
+        rel: "stlyesheet"
+      }
     ]
-    // link: [{ rel: "icon", type: "image/png", href: "/favicon.png" }]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -40,26 +67,5 @@ export default {
     /*
      ** You can extend webpack config here
      */
-    // transpile: ["vee-validate/dist/rules"],
-    // babel: {
-    //   presets({ isServer }) {
-    //     return [
-    //       [
-    //         require.resolve("@nuxt/babel-preset-app"),
-    //         // require.resolve('@nuxt/babel-preset-app-edge'), // For nuxt-edge users
-    //         {
-    //           buildTarget: isServer ? "server" : "client",
-    //           corejs: { version: 3 }
-    //         }
-    //       ]
-    //     ];
-    //   }
-    // },
-    // extend(config, ctx) {
-    //   config.module.rules.push({
-    //     test: /\.md$/,
-    //     loader: "raw-loader"
-    //   });
-    // }
   }
 };
