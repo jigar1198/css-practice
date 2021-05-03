@@ -817,14 +817,22 @@
           aria-labelledby="indian-tab"
         >
           <VueSlickCarousel v-bind="recipesSettings" class="recipes-carousel">
-            <div class="recipe">
+            <div
+              v-for="recipe in indianRecipes"
+              class="recipe"
+              :key="recipe.id"
+            >
               <div class="recipe-container">
                 <div class="recipe__image-container">
-                  <img src="~/assets/images/recipes/indian/img1.png" />
+                  <img
+                    :src="
+                      require(`~/assets/images/recipes/indian/${recipe.recipeImage}.png`)
+                    "
+                  />
                 </div>
                 <div class="recipe__text-container">
                   <h3 class="recipe--title">
-                    Peppy Tomato Oats Crumb Fried Chicken
+                    {{ recipe.title }}
                   </h3>
                   <div class="recipe__details-container">
                     <div class="recipe__serving">
@@ -832,20 +840,22 @@
                         src="~/assets/images/recipes/food.svg"
                         class="recipe__serving--image"
                       />
-                      <p class="recipe__serving--text">3-4</p>
+                      <p class="recipe__serving--text">{{ recipe.serving }}</p>
                     </div>
                     <div class="recipe__cooking-time">
                       <img
                         src="~/assets/images/recipes/chronometer.svg"
                         class="recipe__cooking-time--image"
                       />
-                      <p class="recipe__cooking-time--text">20 min</p>
+                      <p class="recipe__cooking-time--text">
+                        {{ recipe.cookingTime }}
+                      </p>
                     </div>
                   </div>
                 </div>
                 <div
                   class="recipe-open__image-container"
-                  @click="activateRecipe('indianRecipe1Active')"
+                  @click="activateRecipe(recipe.id)"
                 >
                   <img
                     src="~/assets/images/recipes/up-arrow.svg"
@@ -854,220 +864,27 @@
                 </div>
                 <div
                   class="recipe__method-container"
-                  :class="addRecipeActiveClass('indianRecipe1Active')"
+                  :class="addRecipeActiveClass(recipe.id)"
                 >
                   <h5 class="recipe__method--heading">Ingredients:</h5>
-                  <p class="recipe__method--sub-text">
-                    Saffola masala peppy tomato oats - 1 packet
-                  </p>
-                  <p class="recipe__method--sub-text">
-                    Saffola Oil - 3 tablespoons
-                  </p>
-                  <p class="recipe__method--sub-text">
-                    40 grams plain nonfat corn flakes
-                  </p>
-                  <p class="recipe__method--sub-text">Eggs - 2</p>
-                  <p class="recipe__method--sub-text">
-                    25 grams grated parmesan cheese
-                  </p>
-                  <p class="recipe__method--sub-text">
-                    Homemade green chutney - 3 tablespoons
-                  </p>
-                  <p class="recipe__method--sub-text">
-                    Whole wheat Flour - ½ cup
-                  </p>
-                  <p class="recipe__method--sub-text">
-                    700 grams boneless chicken breast fillets (3 chicken breasts
-                    x 2 fillets each)
-                  </p>
-                  <h5 class="recipe__method--heading">Method:</h5>
-                  <p class="recipe__method--sub-text">
-                    1. Place chicken fillets into a zip lock bag and pound
-                    gently until thin.
-                  </p>
-                  <p class="recipe__method--sub-text">
-                    2. In a flattish deep-dish whisk the eggs and chutney with a
-                    fork
-                  </p>
-                  <p class="recipe__method--sub-text">
-                    3. Put Saffola masala oats, corn flakes, walnuts, and cheese
-                    in a processor to get a coarse mix
-                  </p>
-                  <p class="recipe__method--sub-text">
-                    4. Place wheat flour, egg mixture and half oats in three
-                    separate dishes. Take one fillet at a time to coat them and
-                    deep fry in 1 tablespoon of oil at a time, and serve hot
-                  </p>
-
-                  <div
-                    class="recipe-close__image-container"
-                    @click="deactivateRecipe('indianRecipe1Active')"
+                  <p
+                    class="recipe__method--sub-text"
+                    v-for="ingredients in recipe.recipeIngredients"
+                    :key="ingredients"
                   >
-                    <img
-                      src="~/assets/images/recipes/close.svg"
-                      class="recipe__close-image img-responsive img-fluid"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="recipe">
-              <div class="recipe-container">
-                <div class="recipe__image-container">
-                  <img src="~/assets/images/recipes/indian/img2.png" />
-                </div>
-                <div class="recipe__text-container">
-                  <h3 class="recipe--title">Masaledar Oats Tikki</h3>
-                  <div class="recipe__details-container">
-                    <div class="recipe__serving">
-                      <img
-                        src="~/assets/images/recipes/food.svg"
-                        class="recipe__serving--image"
-                      />
-                      <p class="recipe__serving--text">4</p>
-                    </div>
-                    <div class="recipe__cooking-time">
-                      <img
-                        src="~/assets/images/recipes/chronometer.svg"
-                        class="recipe__cooking-time--image"
-                      />
-                      <p class="recipe__cooking-time--text">30 min</p>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="recipe-open__image-container"
-                  @click="activateRecipe('indianRecipe2Active')"
-                >
-                  <img
-                    src="~/assets/images/recipes/up-arrow.svg"
-                    class="recipe__open-image img-responsive img-fluid"
-                  />
-                </div>
-                <div
-                  class="recipe__method-container"
-                  :class="addRecipeActiveClass('indianRecipe2Active')"
-                >
-                  <h5 class="recipe__method--heading">Ingredients:</h5>
-                  <p class="recipe__method--sub-text">
-                    Saffola CLASSIC MASALA OATS - 1/2 packet + 1/4 packet
+                    {{ ingredients }}
                   </p>
-                  <p class="recipe__method--sub-text">
-                    YELLOW MOONG DAL - 1/3 CUP
-                  </p>
-                  <p class="recipe__method--sub-text">
-                    ONION & CARROT - 1 each
-                  </p>
-                  <p class="recipe__method--sub-text">
-                    GARAM MASALA & Red Chilli Powder - 1/4 TSP
-                  </p>
-                  <p class="recipe__method--sub-text">CORIANDER LEAVES - FEW</p>
                   <h5 class="recipe__method--heading">Method:</h5>
-                  <p class="recipe__method--sub-text">
-                    1. Dry roast the 1/2 cup of masala Oats in a pan for 5
-                    minutes, without burning it. Once cooled, grind it into a
-                    fine powder.
-                  </p>
-                  <p class="recipe__method--sub-text">
-                    2. Soak dal for 10 minutes in water and cook in open flame
-                    till it becomes soft. Drain the excess water and allow this
-                    to cool. Grind the moong dal coarsely without adding any
-                    water.
-                  </p>
-                  <p class="recipe__method--sub-text">
-                    3. Put this in a wide bowl and add the oats powder, veggies,
-                    spices and salt. Mix well to make small tikkis.
-                  </p>
-                  <div
-                    class="recipe-close__image-container"
-                    @click="deactivateRecipe('indianRecipe2Active')"
+                  <p
+                    class="recipe__method--sub-text"
+                    v-for="methods in recipe.recipeMethods"
+                    :key="methods"
                   >
-                    <img
-                      src="~/assets/images/recipes/close.svg"
-                      class="recipe__close-image img-responsive img-fluid"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="recipe">
-              <div class="recipe-container">
-                <div class="recipe__image-container">
-                  <img src="~/assets/images/recipes/indian/img3.png" />
-                </div>
-                <div class="recipe__text-container">
-                  <h3 class="recipe--title">Peppy Tomato Vegetable Roll</h3>
-                  <div class="recipe__details-container">
-                    <div class="recipe__serving">
-                      <img
-                        src="~/assets/images/recipes/food.svg"
-                        class="recipe__serving--image"
-                      />
-                      <p class="recipe__serving--text">2</p>
-                    </div>
-                    <div class="recipe__cooking-time">
-                      <img
-                        src="~/assets/images/recipes/chronometer.svg"
-                        class="recipe__cooking-time--image"
-                      />
-                      <p class="recipe__cooking-time--text">20 min</p>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="recipe-open__image-container"
-                  @click="activateRecipe('indianRecipe3Active')"
-                >
-                  <img
-                    src="~/assets/images/recipes/up-arrow.svg"
-                    class="recipe__open-image img-responsive img-fluid"
-                  />
-                </div>
-                <div
-                  class="recipe__method-container"
-                  :class="addRecipeActiveClass('indianRecipe3Active')"
-                >
-                  <h5 class="recipe__method--heading">Ingredients:</h5>
-                  <p class="recipe__method--sub-text">
-                    Saffola Peppy Tomato Oats – 40 g
-                  </p>
-                  <p class="recipe__method--sub-text">
-                    Saffola Active oil – 2 tsp 5 ml
-                  </p>
-                  <p class="recipe__method--sub-text">
-                    Cumin seeds – 1 tsp 2 g
-                  </p>
-                  <p class="recipe__method--sub-text">Carrot – ½ cup 100 g</p>
-                  <p class="recipe__method--sub-text">
-                    Capsicum & Onion – ½ cup 50 g each
-                  </p>
-                  <p class="recipe__method--sub-text">
-                    Salt & Black pepper - ½ tsp 1g each
-                  </p>
-                  <p class="recipe__method--sub-text">
-                    Spinach Tortilla - 2 100 g
-                  </p>
-                  <h5 class="recipe__method--heading">Method:</h5>
-                  <p class="recipe__method--sub-text">
-                    1. Follow the directions to cook Saffola Peppy Tomato Oats
-                    and set aside to cool
-                  </p>
-                  <p class="recipe__method--sub-text">
-                    2. Heat Saffola Active Oil in a pan and add cumin seeds,
-                    capsicum, onion, salt to taste, and black pepper. Cook for
-                    3-4 minutes on a low flame
-                  </p>
-                  <p class="recipe__method--sub-text">
-                    3. Keep a spinach tortilla on a plate and add some vegetable
-                    filling in the centre to make a tight roll.
-                  </p>
-                  <p class="recipe__method--sub-text">
-                    4. Spread oats on top and serve hot with a dip of your
-                    choice.
+                    {{ methods }}
                   </p>
                   <div
                     class="recipe-close__image-container"
-                    @click="deactivateRecipe('indianRecipe3Active')"
+                    @click="deactivateRecipe(recipe.id)"
                   >
                     <img
                       src="~/assets/images/recipes/close.svg"
@@ -1085,7 +902,7 @@
           role="tabpanel"
           aria-labelledby="italian-tab"
         >
-          <!-- <VueSlickCarousel v-bind="recipesSettings" class="recipes-carousel">
+          <VueSlickCarousel v-bind="recipesSettings" class="recipes-carousel">
             <div
               v-for="recipe in italianRecipes"
               class="recipe"
@@ -1163,7 +980,7 @@
                 </div>
               </div>
             </div>
-          </VueSlickCarousel> -->
+          </VueSlickCarousel>
         </div>
         <div
           class="tab-pane fade"
@@ -1171,7 +988,7 @@
           role="tabpanel"
           aria-labelledby="continental-tab"
         >
-          <!-- <VueSlickCarousel v-bind="recipesSettings" class="recipes-carousel">
+          <VueSlickCarousel v-bind="recipesSettings" class="recipes-carousel">
             <div
               v-for="recipe in continentalRecipes"
               class="recipe"
@@ -1249,7 +1066,7 @@
                 </div>
               </div>
             </div>
-          </VueSlickCarousel> -->
+          </VueSlickCarousel>
         </div>
       </div>
     </section>
@@ -1519,97 +1336,97 @@ export default {
     return {
       showNavBar: false,
       showBottomBuyNow: true,
-      // indianRecipes: [
-      //   {
-      //     cuisine: "indian",
-      //     id: "indianRecipe1Active",
-      //     recipeImage: "img1",
-      //     title: "Peppy Tomato Oats Crumb Fried Chicken",
-      //     serving: "3-4",
-      //     cookingTime: "20 min",
-      //     recipeIngredients: [
-      //       "Saffola masala peppy tomato oats - 1 packet",
-      //       "Saffola Oil - 3 tablespoons",
-      //       "40 grams plain nonfat corn flakes",
-      //       "Eggs - 2",
-      //       "25 grams grated parmesan cheese",
-      //       "Homemade green chutney - 3 tablespoons",
-      //       "Whole wheat Flour - ½ cup",
-      //       "700 grams boneless chicken breast fillets (3 chicken breasts x 2 fillets each)",
-      //     ],
-      //     recipeMethods: [
-      //       "1. Place chicken fillets into a zip lock bag and pound gently until thin.",
-      //       "2. In a flattish deep-dish whisk the eggs and chutney with a fork",
-      //       "3. Put Saffola masala oats, corn flakes, walnuts, and cheese in a processor to get a coarse mix",
-      //       "4. Place wheat flour, egg mixture and half oats in three separate dishes. Take one fillet at a time to coat them and deep fry in 1 tablespoon of oil at a time, and serve hot",
-      //     ],
-      //   },
-      //   {
-      //     cuisine: "indian",
-      //     id: "indianRecipe2Active",
-      //     recipeImage: "img2",
-      //     title: "Masaledar Oats Tikki",
-      //     serving: "4",
-      //     cookingTime: "30 min",
-      //     recipeIngredients: [
-      //       "Saffola CLASSIC MASALA OATS - 1/2 packet + 1/4 packet",
-      //       "YELLOW MOONG DAL - 1/3 CUP",
-      //       "ONION & CARROT - 1 each",
-      //       "GARAM MASALA & Red Chilli Powder - 1/4 TSP",
-      //       "CORIANDER LEAVES - FEW",
-      //     ],
-      //     recipeMethods: [
-      //       "1. Dry roast the 1/2 cup of masala Oats in a pan for 5 minutes, without burning it. Once cooled, grind it into a fine powder.",
-      //       "2. Soak dal for 10 minutes in water and cook in open flame till it becomes soft. Drain the excess water and allow this to cool. Grind the moong dal coarsely without adding any water.",
-      //       "3. Put this in a wide bowl and add the oats powder, veggies, spices and salt. Mix well to make small tikkis.",
-      //     ],
-      //   },
-      //   {
-      //     cuisine: "indian",
-      //     id: "indianRecipe3Active",
-      //     recipeImage: "img3",
-      //     title: "Peppy Tomato Vegetable Roll",
-      //     serving: "2",
-      //     cookingTime: "20 min",
-      //     recipeIngredients: [
-      //       "Saffola Peppy Tomato Oats – 40 g",
-      //       "Saffola Active oil – 2 tsp 5 ml",
-      //       "Cumin seeds – 1 tsp 2 g",
-      //       "Carrot – ½ cup 100 g",
-      //       "Capsicum & Onion – ½ cup 50 g each",
-      //       "Salt & Black pepper - ½ tsp 1g each",
-      //       "Spinach Tortilla - 2 100 g",
-      //     ],
-      //     recipeMethods: [
-      //       "1. Follow the directions to cook Saffola Peppy Tomato Oats and set aside to cool",
-      //       "2. Heat Saffola Active Oil in a pan and add cumin seeds, capsicum, onion, salt to taste, and black pepper. Cook for 3-4 minutes on a low flame",
-      //       "3. Keep a spinach tortilla on a plate and add some vegetable filling in the centre to make a tight roll.",
-      //       "4. Spread oats on top and serve hot with a dip of your choice.",
-      //     ],
-      //   },
-      //   {
-      //     cuisine: "indian",
-      //     id: "indianRecipe4Active",
-      //     recipeImage: "img4",
-      //     title: "Classic Masala Oats Chicken Curry",
-      //     serving: "2",
-      //     cookingTime: "30 min",
-      //     recipeIngredients: [
-      //       "1 cup chopped chicken breast",
-      //       "2 tsp each chopped garlic & ginger",
-      //       "1 tsp garam masala",
-      //       "Salt to taste",
-      //       "1 tbsp lemon juice",
-      //       "1 tbsp Saffola oil",
-      //       "1/2 cup sliced onions",
-      //     ],
-      //     recipeMethods: [
-      //       "1. Add chicken, garlic, ginger, garam masala, salt, lemon juice to a bowl and mix it well. Add Saffola Masala Oats Classic Masala to the mixture and combine well",
-      //       "2. Heat oil in a pan and sauté the onions till they are translucent. Add green chillies and the marinated chicken and mix well",
-      //       "3. Add tomatoes, tomato puree, and chicken stock and cook with the lid on for 3-4 mins. Layer it with capsicum and cook for 1-2 minutes more to prepare your Classic Masala Oats Chicken Curry!",
-      //     ],
-      //   },
-      // ],
+      indianRecipes: [
+        {
+          cuisine: "indian",
+          id: "indianRecipe1Active",
+          recipeImage: "img1",
+          title: "Peppy Tomato Oats Crumb Fried Chicken",
+          serving: "3-4",
+          cookingTime: "20 min",
+          recipeIngredients: [
+            "Saffola masala peppy tomato oats - 1 packet",
+            "Saffola Oil - 3 tablespoons",
+            "40 grams plain nonfat corn flakes",
+            "Eggs - 2",
+            "25 grams grated parmesan cheese",
+            "Homemade green chutney - 3 tablespoons",
+            "Whole wheat Flour - ½ cup",
+            "700 grams boneless chicken breast fillets (3 chicken breasts x 2 fillets each)",
+          ],
+          recipeMethods: [
+            "1. Place chicken fillets into a zip lock bag and pound gently until thin.",
+            "2. In a flattish deep-dish whisk the eggs and chutney with a fork",
+            "3. Put Saffola masala oats, corn flakes, walnuts, and cheese in a processor to get a coarse mix",
+            "4. Place wheat flour, egg mixture and half oats in three separate dishes. Take one fillet at a time to coat them and deep fry in 1 tablespoon of oil at a time, and serve hot",
+          ],
+        },
+        {
+          cuisine: "indian",
+          id: "indianRecipe2Active",
+          recipeImage: "img2",
+          title: "Masaledar Oats Tikki",
+          serving: "4",
+          cookingTime: "30 min",
+          recipeIngredients: [
+            "Saffola CLASSIC MASALA OATS - 1/2 packet + 1/4 packet",
+            "YELLOW MOONG DAL - 1/3 CUP",
+            "ONION & CARROT - 1 each",
+            "GARAM MASALA & Red Chilli Powder - 1/4 TSP",
+            "CORIANDER LEAVES - FEW",
+          ],
+          recipeMethods: [
+            "1. Dry roast the 1/2 cup of masala Oats in a pan for 5 minutes, without burning it. Once cooled, grind it into a fine powder.",
+            "2. Soak dal for 10 minutes in water and cook in open flame till it becomes soft. Drain the excess water and allow this to cool. Grind the moong dal coarsely without adding any water.",
+            "3. Put this in a wide bowl and add the oats powder, veggies, spices and salt. Mix well to make small tikkis.",
+          ],
+        },
+        {
+          cuisine: "indian",
+          id: "indianRecipe3Active",
+          recipeImage: "img3",
+          title: "Peppy Tomato Vegetable Roll",
+          serving: "2",
+          cookingTime: "20 min",
+          recipeIngredients: [
+            "Saffola Peppy Tomato Oats – 40 g",
+            "Saffola Active oil – 2 tsp 5 ml",
+            "Cumin seeds – 1 tsp 2 g",
+            "Carrot – ½ cup 100 g",
+            "Capsicum & Onion – ½ cup 50 g each",
+            "Salt & Black pepper - ½ tsp 1g each",
+            "Spinach Tortilla - 2 100 g",
+          ],
+          recipeMethods: [
+            "1. Follow the directions to cook Saffola Peppy Tomato Oats and set aside to cool",
+            "2. Heat Saffola Active Oil in a pan and add cumin seeds, capsicum, onion, salt to taste, and black pepper. Cook for 3-4 minutes on a low flame",
+            "3. Keep a spinach tortilla on a plate and add some vegetable filling in the centre to make a tight roll.",
+            "4. Spread oats on top and serve hot with a dip of your choice.",
+          ],
+        },
+        {
+          cuisine: "indian",
+          id: "indianRecipe4Active",
+          recipeImage: "img4",
+          title: "Classic Masala Oats Chicken Curry",
+          serving: "2",
+          cookingTime: "30 min",
+          recipeIngredients: [
+            "1 cup chopped chicken breast",
+            "2 tsp each chopped garlic & ginger",
+            "1 tsp garam masala",
+            "Salt to taste",
+            "1 tbsp lemon juice",
+            "1 tbsp Saffola oil",
+            "1/2 cup sliced onions",
+          ],
+          recipeMethods: [
+            "1. Add chicken, garlic, ginger, garam masala, salt, lemon juice to a bowl and mix it well. Add Saffola Masala Oats Classic Masala to the mixture and combine well",
+            "2. Heat oil in a pan and sauté the onions till they are translucent. Add green chillies and the marinated chicken and mix well",
+            "3. Add tomatoes, tomato puree, and chicken stock and cook with the lid on for 3-4 mins. Layer it with capsicum and cook for 1-2 minutes more to prepare your Classic Masala Oats Chicken Curry!",
+          ],
+        },
+      ],
       italianRecipes: [
         {
           cuisine: "italian",
@@ -1850,6 +1667,7 @@ export default {
       },
 
       recipesSettings: {
+        infinite: false,
         slidesToShow: 3,
         arrows: true,
         speed: 500,
