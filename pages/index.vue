@@ -97,34 +97,34 @@
         </div>
         <a
           href="#products"
-          @click="showNavBar = false"
+          @click="(showNavBar = false), (showBottomBuyNow = true)"
           style="text-decoration: none"
         >
           <h5 class="navigation__mobile-text">Products</h5>
         </a>
         <a
           href="#features"
-          @click="showNavBar = false"
+          @click="(showNavBar = false), (showBottomBuyNow = true)"
           style="text-decoration: none"
           ><h5 class="navigation__mobile-text">Features</h5></a
         >
         <a
           href="#steps"
-          @click="showNavBar = false"
+          @click="(showNavBar = false), (showBottomBuyNow = true)"
           style="text-decoration: none"
         >
           <h5 class="navigation__mobile-text">Preparation</h5></a
         >
         <a
           href="#recipes"
-          @click="showNavBar = false"
+          @click="(showNavBar = false), (showBottomBuyNow = true)"
           style="text-decoration: none"
         >
           <h5 class="navigation__mobile-text">Recipes</h5></a
         >
         <a
           href="#testimonials"
-          @click="showNavBar = false"
+          @click="(showNavBar = false), (showBottomBuyNow = true)"
           style="text-decoration: none"
         >
           <h5 class="navigation__mobile-text">Testimonials</h5>
