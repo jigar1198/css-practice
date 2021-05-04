@@ -131,7 +131,7 @@
         </a>
       </div>
     </nav>
-    <div
+    <!-- <div
       class="buy-now-button__mobile"
       @click="openBuyNowSection('mobile')"
       v-show="showBottomBuyNow"
@@ -171,7 +171,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
     <div class="back-to-top__container--hide" id="back-to-top__container">
       <a href="#top-banner" style="text-decoration: none">
         <img
