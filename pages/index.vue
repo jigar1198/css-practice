@@ -1696,7 +1696,7 @@ export default {
             breakpoint: 992,
             settings: {
               slidesToShow: 2,
-              arrows: false,
+              arrows: true,
             },
           },
           {

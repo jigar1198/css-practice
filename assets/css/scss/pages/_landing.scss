@@ -619,11 +619,17 @@
   .recipes-carousel {
     @media (max-width: 600px) {
       padding: 0 1rem;
+      padding-bottom: 4rem;
     }
 
     .slick-dots {
       bottom: -15px;
       height: 4px;
+
+      @media (max-width: 600px) {
+        bottom: 25px;
+        padding-right: 2rem;
+      }
 
       li {
         width: 25%;
