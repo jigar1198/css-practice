@@ -1191,7 +1191,7 @@ function shouldScrollToTop(route) {
 
 
 
-const _e1621710 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 2).then(__webpack_require__.bind(null, 73)));
+const _e1621710 = () => interopDefault(__webpack_require__.e(/* import() | pages/index */ 2).then(__webpack_require__.bind(null, 105)));
 
 const emptyFn = () => {};
 
@@ -1964,7 +1964,7 @@ function wrapFunctional(options) {
 
 
 const components = {
-  Logo: () => __webpack_require__.e(/* import() | components/logo */ 1).then(__webpack_require__.bind(null, 74)).then(c => wrapFunctional(c.default || c))
+  Logo: () => __webpack_require__.e(/* import() | components/logo */ 1).then(__webpack_require__.bind(null, 106)).then(c => wrapFunctional(c.default || c))
 };
 
 for (const name in components) {
@@ -2572,6 +2572,12 @@ const createNext = ssrContext => opts => {
 /***/ (function(module, exports) {
 
 module.exports = require("vue-slick-carousel");
+
+/***/ }),
+/* 20 */
+/***/ (function(module, exports) {
+
+module.exports = require("vue-slick");
 
 /***/ })
 /******/ ]);

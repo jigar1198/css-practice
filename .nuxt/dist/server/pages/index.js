@@ -1,42 +1,108 @@
 exports.ids = [2];
-exports.modules = Array(20).concat([
-/* 20 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/doubleQuotes.eaae13a.svg";
-
-/***/ }),
+exports.modules = Array(21).concat([
 /* 21 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/saffola.057176a.png";
+module.exports = __webpack_require__.p + "img/combined-shape.16e19d0.png";
 
 /***/ }),
 /* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/amazon.8878d51.png";
+module.exports = __webpack_require__.p + "img/doubleQuotes.eaae13a.svg";
 
 /***/ }),
 /* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/big-basket.ea3d016.png";
+module.exports = __webpack_require__.p + "img/food.6eda859.svg";
 
 /***/ }),
 /* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/grofers.885e457.png";
+module.exports = __webpack_require__.p + "img/chronometer.65f1a64.svg";
 
 /***/ }),
 /* 25 */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NyIgaGVpZ2h0PSI0NyIgdmlld0JveD0iMCAwIDQ3IDQ3Ij4NCiAgICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8Zz4NCiAgICAgICAgICAgIDxnPg0KICAgICAgICAgICAgICAgIDxnPg0KICAgICAgICAgICAgICAgICAgICA8Zz4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIGZpbGw9IiNEQjA4MTIiIGQ9Ik0uMjY2LjIzNGg0NXYzNWMwIDUuNTIzLTQuNDc4IDEwLTEwIDEwaC0zNXYtNDV6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNDUzIC0zNjg3KSB0cmFuc2xhdGUoMCAyOTE4KSB0cmFuc2xhdGUoMTM4IDMwNCkgdHJhbnNsYXRlKDMxNS43MzQgNDY1Ljc2NikiLz4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIGZpbGw9IiNGQ0M1MTciIGZpbGwtcnVsZT0ibm9uemVybyIgZD0iTTMxLjQ4NCAyMS40MjhIMTQuOTRsMi43NC0yLjgxNmMuMzA3LS4zMTQuMzA4LS44MjQuMDA0LTEuMTQtLjMwNS0uMzE2LS44LS4zMTctMS4xMDUtLjAwM2wtNC4wODMgNC4xOTRjLS4zMDUuMzE1LS4zMDYuODI3IDAgMS4xNDJ2LjAwMUwxNi41NzggMjdjLjMwNS4zMTQuOC4zMTMgMS4xMDQtLjAwMy4zMDUtLjMxNi4zMDQtLjgyNi0uMDAyLTEuMTRsLTIuNzQtMi44MTZoMTYuNTQ0Yy40MzIgMCAuNzgyLS4zNjEuNzgyLS44MDcgMC0uNDQ1LS4zNS0uODA2LS43ODItLjgwNnoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC00NTMgLTM2ODcpIHRyYW5zbGF0ZSgwIDI5MTgpIHRyYW5zbGF0ZSgxMzggMzA0KSB0cmFuc2xhdGUoMzE1LjczNCA0NjUuNzY2KSBtYXRyaXgoMCAxIDEgMCAuMDMxIC0uMDMxKSIvPg0KICAgICAgICAgICAgICAgICAgICA8L2c+DQogICAgICAgICAgICAgICAgPC9nPg0KICAgICAgICAgICAgPC9nPg0KICAgICAgICA8L2c+DQogICAgPC9nPg0KPC9zdmc+DQo="
+
+/***/ }),
+/* 26 */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NSIgaGVpZ2h0PSI0NSIgdmlld0JveD0iMCAwIDQ1IDQ1Ij4NCiAgICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8Zz4NCiAgICAgICAgICAgIDxnPg0KICAgICAgICAgICAgICAgIDxnPg0KICAgICAgICAgICAgICAgICAgICA8Zz4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIGZpbGw9IiNEQjA4MTIiIGQ9Ik0wIDBoNDV2MzVjMCA1LjUyMy00LjQ3NyAxMC0xMCAxMEgwVjB6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNDU2IC0zNjg4KSB0cmFuc2xhdGUoMCAyOTE4KSB0cmFuc2xhdGUoMTQwIDMwNSkgdHJhbnNsYXRlKDMxNiA0NjUpIi8+DQogICAgICAgICAgICAgICAgICAgICAgICA8cGF0aCBmaWxsPSIjRkNDNTE3IiBmaWxsLXJ1bGU9Im5vbnplcm8iIGQ9Ik0yNC40NjYgMjNsNi4yMy02LjIzYy40MDUtLjQwNi40MDUtMS4wNiAwLTEuNDY2LS40MDUtLjQwNS0xLjA2LS40MDUtMS40NjYgMEwyMyAyMS41MzRsLTYuMjMtNi4yM2MtLjQwNi0uNDA1LTEuMDYtLjQwNS0xLjQ2NiAwLS40MDUuNDA1LS40MDUgMS4wNiAwIDEuNDY2bDYuMjMgNi4yMy02LjIzIDYuMjNjLS40MDUuNDA2LS40MDUgMS4wNjEgMCAxLjQ2Ni4yMDIuMjAyLjQ2OC4zMDQuNzMzLjMwNC4yNjUgMCAuNTMtLjEwMi43MzMtLjMwNGw2LjIzLTYuMjMgNi4yMyA2LjIzYy4yMDIuMjAyLjQ2OC4zMDQuNzMzLjMwNC4yNjUgMCAuNTMtLjEwMi43MzMtLjMwNC40MDUtLjQwNS40MDUtMS4wNiAwLTEuNDY1TDI0LjQ2NiAyM3oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC00NTYgLTM2ODgpIHRyYW5zbGF0ZSgwIDI5MTgpIHRyYW5zbGF0ZSgxNDAgMzA1KSB0cmFuc2xhdGUoMzE2IDQ2NSkiLz4NCiAgICAgICAgICAgICAgICAgICAgPC9nPg0KICAgICAgICAgICAgICAgIDwvZz4NCiAgICAgICAgICAgIDwvZz4NCiAgICAgICAgPC9nPg0KICAgIDwvZz4NCjwvc3ZnPg0K"
+
+/***/ }),
+/* 27 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/saffola.057176a.png";
+
+/***/ }),
+/* 28 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/amazon.8878d51.png";
+
+/***/ }),
+/* 29 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/big-basket.ea3d016.png";
+
+/***/ }),
+/* 30 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/grofers.885e457.png";
+
+/***/ }),
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/product1.53115d0.png";
 
 /***/ }),
-/* 26 */
+/* 32 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/classic-masala.22177e9.png";
+
+/***/ }),
+/* 33 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/peppy-tomato.d6fda6f.png";
+
+/***/ }),
+/* 34 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/veggie-twist.46c5ed2.png";
+
+/***/ }),
+/* 35 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/masala-coriander.6384904.png";
+
+/***/ }),
+/* 36 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/flavours-of south-pack.35361e2.png";
+
+/***/ }),
+/* 37 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/plain-oats-pack.aacccb0.png";
+
+/***/ }),
+/* 38 */
 /***/ (function(module, exports) {
 
 // Exports
@@ -46,177 +112,249 @@ module.exports = {
 
 
 /***/ }),
-/* 27 */,
-/* 28 */
+/* 39 */,
+/* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/saffola-oats-logo-4-x-copy.ab28dce.png";
 
 /***/ }),
-/* 29 */
+/* 41 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNSIgdmlld0JveD0iMCAwIDI0IDI1Ij4NCiAgICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8ZyBmaWxsPSIjREIwODEyIj4NCiAgICAgICAgICAgIDxnPg0KICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0zMTcuNTI4IDQ4YzEuMzggMCAyLjUgMS4xMiAyLjUgMi41cy0xLjEyIDIuNS0yLjUgMi41aC0xOWMtMS4zOCAwLTIuNS0xLjEyLTIuNS0yLjVzMS4xMi0yLjUgMi41LTIuNWgxOXptMC0xMGMxLjM4IDAgMi41IDEuMTIgMi41IDIuNXMtMS4xMiAyLjUtMi41IDIuNWgtMTljLTEuMzggMC0yLjUtMS4xMi0yLjUtMi41czEuMTItMi41IDIuNS0yLjVoMTl6bTAtMTBjMS4zOCAwIDIuNSAxLjEyIDIuNSAyLjVzLTEuMTIgMi41LTIuNSAyLjVoLTE5Yy0xLjM4IDAtMi41LTEuMTItMi41LTIuNXMxLjEyLTIuNSAyLjUtMi41aDE5eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMxNiAtNjQpIHRyYW5zbGF0ZSgxOS45NzIgMzYpIi8+DQogICAgICAgICAgICA8L2c+DQogICAgICAgIDwvZz4NCiAgICA8L2c+DQo8L3N2Zz4NCg=="
 
 /***/ }),
-/* 30 */
+/* 42 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNSIgaGVpZ2h0PSIyNSIgdmlld0JveD0iMCAwIDI1IDI1Ij4NCiAgICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8ZyBmaWxsPSIjRkNDNTE3Ij4NCiAgICAgICAgICAgIDxnPg0KICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0zMTcuNTI4IDQ4YzEuMzggMCAyLjUgMS4xMiAyLjUgMi41cy0xLjEyIDIuNS0yLjUgMi41aC0xOWMtMS4zOCAwLTIuNS0xLjEyLTIuNS0yLjVzMS4xMi0yLjUgMi41LTIuNWgxOXptMC0xMGMxLjM4IDAgMi41IDEuMTIgMi41IDIuNXMtMS4xMiAyLjUtMi41IDIuNWgtMTljLTEuMzggMC0yLjUtMS4xMi0yLjUtMi41czEuMTItMi41IDIuNS0yLjVoMTl6bTAtMTBjMS4zOCAwIDIuNSAxLjEyIDIuNSAyLjVzLTEuMTIgMi41LTIuNSAyLjVoLTE5Yy0xLjM4IDAtMi41LTEuMTItMi41LTIuNXMxLjEyLTIuNSAyLjUtMi41aDE5eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMyMyAtMzMpIHRyYW5zbGF0ZSgyNyA1KSIvPg0KICAgICAgICAgICAgPC9nPg0KICAgICAgICA8L2c+DQogICAgPC9nPg0KPC9zdmc+DQo="
 
 /***/ }),
-/* 31 */
+/* 43 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNSIgaGVpZ2h0PSIyNSIgdmlld0JveD0iMCAwIDI1IDI1Ij4NCiAgICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8ZyBmaWxsPSIjRkNDNTE3IiBmaWxsLXJ1bGU9Im5vbnplcm8iPg0KICAgICAgICAgICAgPGc+DQogICAgICAgICAgICAgICAgPHBhdGggZD0iTTMwOS43OSA0MC41bDkuNzM1LTkuNzM1Yy42MzMtLjYzMy42MzMtMS42NTcgMC0yLjI5cy0xLjY1Ny0uNjMzLTIuMjkgMEwzMDcuNSAzOC4yMWwtOS43MzUtOS43MzVjLS42MzMtLjYzMy0xLjY1Ny0uNjMzLTIuMjkgMHMtLjYzMyAxLjY1NyAwIDIuMjlsOS43MzUgOS43MzUtOS43MzUgOS43MzVjLS42MzMuNjMzLS42MzMgMS42NTcgMCAyLjI5LjMxNi4zMTYuNzMuNDc1IDEuMTQ1LjQ3NS40MTUgMCAuODMtLjE1OSAxLjE0NS0uNDc1bDkuNzM1LTkuNzM1IDkuNzM1IDkuNzM1Yy4zMTYuMzE2LjczLjQ3NSAxLjE0NS40NzUuNDE0IDAgLjgyOS0uMTU5IDEuMTQ1LS40NzUuNjMzLS42MzMuNjMzLTEuNjU3IDAtMi4yOUwzMDkuNzkgNDAuNXoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zMTUgLTY0KSB0cmFuc2xhdGUoMTkuOTcyIDM2KSIvPg0KICAgICAgICAgICAgPC9nPg0KICAgICAgICA8L2c+DQogICAgPC9nPg0KPC9zdmc+DQo="
 
 /***/ }),
-/* 32 */
+/* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/down-buyNow.45c251d.svg";
 
 /***/ }),
-/* 33 */
+/* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/up-arrow.5351493.svg";
 
 /***/ }),
-/* 34 */
+/* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/bowl.7ab70c4.png";
 
 /***/ }),
-/* 35 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/oats.ab7dbee.svg";
-
-/***/ }),
-/* 36 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/hi-fiber.38ac2a0.svg";
-
-/***/ }),
-/* 37 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/vegetable.af44ff7.svg";
-
-/***/ }),
-/* 38 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/weight.141019d.svg";
-
-/***/ }),
-/* 39 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/no-additives.f6f7325.svg";
-
-/***/ }),
-/* 40 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/clock.fb7d969.svg";
-
-/***/ }),
-/* 41 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/img.0268907.png";
-
-/***/ }),
-/* 42 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/img.4dbbb75.png";
-
-/***/ }),
-/* 43 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/img.b5b7954.png";
-
-/***/ }),
-/* 44 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/step-1.e031c67.png";
-
-/***/ }),
-/* 45 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "img/step-1.7def61b.png";
-
-/***/ }),
-/* 46 */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NCIgaGVpZ2h0PSI0NCIgdmlld0JveD0iMCAwIDc0IDQ0Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgZmlsbD0iI0ZDQzUwMCIgZmlsbC1ydWxlPSJub256ZXJvIj4KICAgICAgICAgICAgPGc+CiAgICAgICAgICAgICAgICA8Zz4KICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMTcuMTEyIDI3LjkyNWMtNi4wMDYgMC0xMS41NDEtMS4xODEtMTYuMjA3LTMuMzkzbC43MjYtMS41ODFDMTcuNjY2IDMwLjU0OSA0NC40NCAyNS40MjQgNjQuNTg3LjkyNWwxLjMxOCAxLjExOEM1MS4wMSAyMC4xNTYgMzIuNTEyIDI3LjkyNSAxNy4xMTIgMjcuOTI1eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTE2MyAtMjc4OCkgdHJhbnNsYXRlKDAgMjYyMCkgc2NhbGUoMSAtMSkgcm90YXRlKDEzIDEwMTIuNTEgNjQwLjI5NikiLz4KICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNNjYuNDU0IDkuMTA1TDY0LjI4NiA4LjkwOSA2NC45NzEgMi42NDIgNTcuOTEyIDQuMDg0IDU3LjQzNiAyLjE0NyA2Ny40MzYgMC4xMDV6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTYzIC0yNzg4KSB0cmFuc2xhdGUoMCAyNjIwKSBzY2FsZSgxIC0xKSByb3RhdGUoMTMgMTAxMi41MSA2NDAuMjk2KSIvPgogICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICA8L2c+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4K"
-
-/***/ }),
 /* 47 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NSIgaGVpZ2h0PSI0MCIgdmlld0JveD0iMCAwIDk1IDQwIj4NCiAgICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8ZyBmaWxsPSIjRkNDNTAwIiBmaWxsLXJ1bGU9Im5vbnplcm8iPg0KICAgICAgICAgICAgPGc+DQogICAgICAgICAgICAgICAgPGc+DQogICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0yMy4xOSA0MEMxNC41OTUgNDAgNi42NzYgMzguMzM3IDAgMzUuMjI0TDEuMDM5IDMzQzIzLjk4MiA0My42OTIgNjIuMjg5IDM2LjQ3OSA5MS4xMTUgMkw5MyAzLjU3NEM3MS42OSAyOS4wNjUgNDUuMjIyIDQwIDIzLjE5IDQweiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTQ3MiAtMjYxMykgdHJhbnNsYXRlKDEgMjI2OCkgdHJhbnNsYXRlKDQ3MS42NTMgMzQ1KSIvPg0KICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNOTIuNjI1IDEzTDg5LjU5MSAxMi43MTcgOTAuNTQ5IDMuNjY1IDgwLjY2NyA1Ljc0OCA4MCAyLjk1IDk0IDB6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNDcyIC0yNjEzKSB0cmFuc2xhdGUoMSAyMjY4KSB0cmFuc2xhdGUoNDcxLjY1MyAzNDUpIi8+DQogICAgICAgICAgICAgICAgPC9nPg0KICAgICAgICAgICAgPC9nPg0KICAgICAgICA8L2c+DQogICAgPC9nPg0KPC9zdmc+DQo="
+module.exports = __webpack_require__.p + "img/classic-masala-peanuts.2767835.png";
 
 /***/ }),
 /* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/step-2.7be7c0e.png";
+module.exports = __webpack_require__.p + "img/peppy-tomato-green-pepper.868afb2.png";
 
 /***/ }),
 /* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/step-2.8af9c4a.png";
+module.exports = __webpack_require__.p + "img/veggie-twist-spring-onions.a7ce075.png";
 
 /***/ }),
 /* 50 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NCIgaGVpZ2h0PSI0NCIgdmlld0JveD0iMCAwIDc0IDQ0Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgZmlsbD0iI0ZDQzUwMCIgZmlsbC1ydWxlPSJub256ZXJvIj4KICAgICAgICAgICAgPGc+CiAgICAgICAgICAgICAgICA8Zz4KICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMTcuMTEyIDI3LjkyNWMtNi4wMDYgMC0xMS41NDEtMS4xODEtMTYuMjA3LTMuMzkzbC43MjYtMS41ODFDMTcuNjY2IDMwLjU0OSA0NC40NCAyNS40MjQgNjQuNTg3LjkyNWwxLjMxOCAxLjExOEM1MS4wMSAyMC4xNTYgMzIuNTEyIDI3LjkyNSAxNy4xMTIgMjcuOTI1eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMzOCAtMjc4OCkgdHJhbnNsYXRlKDAgMjYyMCkgcm90YXRlKDEzIC01NjguMTY5IDE1OTguMzM4KSIvPgogICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik02Ni40NTQgOS4xMDVMNjQuMjg2IDguOTA5IDY0Ljk3MSAyLjY0MiA1Ny45MTIgNC4wODQgNTcuNDM2IDIuMTQ3IDY3LjQzNiAwLjEwNXoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zMzggLTI3ODgpIHRyYW5zbGF0ZSgwIDI2MjApIHJvdGF0ZSgxMyAtNTY4LjE2OSAxNTk4LjMzOCkiLz4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+Cg=="
+module.exports = __webpack_require__.p + "img/masala-coriander-gun-powder.9c437c5.png";
 
 /***/ }),
 /* 51 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NSIgaGVpZ2h0PSI0MiIgdmlld0JveD0iMCAwIDk1IDQyIj4NCiAgICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8ZyBmaWxsPSIjRkNDNTAwIiBmaWxsLXJ1bGU9Im5vbnplcm8iPg0KICAgICAgICAgICAgPGc+DQogICAgICAgICAgICAgICAgPGc+DQogICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0yMy4xOSA0MC44MDhjLTguNTk1IDAtMTYuNTE0LTEuNjYzLTIzLjE5LTQuNzc2bDEuMDM5LTIuMjI1YzIyLjk0MyAxMC42OTMgNjEuMjUgMy40OCA5MC4wNzYtMzFMOTMgNC4zODJDNzEuNjkgMjkuODczIDQ1LjIyMiA0MC44MDggMjMuMTkgNDAuODA4eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTg4MiAtMjYxMikgdHJhbnNsYXRlKDEgMjI2OCkgbWF0cml4KDEgMCAwIC0xIDg4MS42NTMgMzg1LjE5MikiLz4NCiAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTkyLjYyNSAxMy44MDhMODkuNTkxIDEzLjUyNSA5MC41NDkgNC40NzMgODAuNjY3IDYuNTU2IDgwIDMuNzU4IDk0IDAuODA4eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTg4MiAtMjYxMikgdHJhbnNsYXRlKDEgMjI2OCkgbWF0cml4KDEgMCAwIC0xIDg4MS42NTMgMzg1LjE5MikiLz4NCiAgICAgICAgICAgICAgICA8L2c+DQogICAgICAgICAgICA8L2c+DQogICAgICAgIDwvZz4NCiAgICA8L2c+DQo8L3N2Zz4NCg=="
+module.exports = __webpack_require__.p + "img/south-of-flavours-cashews.aeac4e6.png";
 
 /***/ }),
 /* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/step-3.4a35b39.png";
+module.exports = __webpack_require__.p + "img/plain-oats-nuts-berries.8c633c0.png";
 
 /***/ }),
 /* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/step-3.583a7b5.png";
+module.exports = __webpack_require__.p + "img/bitmap1.819a210.png";
 
 /***/ }),
 /* 54 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjkiIHZpZXdCb3g9IjAgMCA1IDkiPgogICAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBmaWxsPSIjMjAyMDIwIj4KICAgICAgICAgICAgPGc+CiAgICAgICAgICAgICAgICA8Zz4KICAgICAgICAgICAgICAgICAgICA8Zz4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTExNC4xNiAxMy4wNTNsMy44OTMtMy44OTNjLjIyNy0uMjEzLjU3NC0uMjEzLjc4NyAwIC4yMTMuMjEzLjIxMy41NiAwIC43ODdsLTMuNTA3IDMuNTA2IDMuNTA3IDMuNTA3Yy4yMTMuMjEzLjIxMy41NzMgMCAuNzg3LS4yMTMuMjEzLS41Ni4yMTMtLjc4NyAwbC0zLjg5My0zLjkwN2MtLjIxMy0uMjEzLS4yMTMtLjU2IDAtLjc4N3oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC05NTIgLTMxNjgpIHRyYW5zbGF0ZSgwIDI5MTgpIHRyYW5zbGF0ZSg0ODMgMjQxKSB0cmFuc2xhdGUoMzU1KSBtYXRyaXgoLTEgMCAwIDEgMjMzIDApIi8+CiAgICAgICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICA8L2c+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4K"
+module.exports = __webpack_require__.p + "img/bitmap2.674026d.png";
 
 /***/ }),
 /* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = __webpack_require__.p + "img/bitmap3.d71bea7.png";
+
+/***/ }),
+/* 56 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/bitmap4.819a210.png";
+
+/***/ }),
+/* 57 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/bitmap5.2fa880d.png";
+
+/***/ }),
+/* 58 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/bitmap6.aa4ebdd.png";
+
+/***/ }),
+/* 59 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/oats.ab7dbee.svg";
+
+/***/ }),
+/* 60 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/hi-fiber.38ac2a0.svg";
+
+/***/ }),
+/* 61 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/vegetable.af44ff7.svg";
+
+/***/ }),
+/* 62 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/weight.141019d.svg";
+
+/***/ }),
+/* 63 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/no-additives.f6f7325.svg";
+
+/***/ }),
+/* 64 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/clock.fb7d969.svg";
+
+/***/ }),
+/* 65 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/img.0268907.png";
+
+/***/ }),
+/* 66 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/img.4dbbb75.png";
+
+/***/ }),
+/* 67 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/img.b5b7954.png";
+
+/***/ }),
+/* 68 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/step-1.e031c67.png";
+
+/***/ }),
+/* 69 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/step-1.7def61b.png";
+
+/***/ }),
+/* 70 */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NCIgaGVpZ2h0PSI0NCIgdmlld0JveD0iMCAwIDc0IDQ0Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgZmlsbD0iI0ZDQzUwMCIgZmlsbC1ydWxlPSJub256ZXJvIj4KICAgICAgICAgICAgPGc+CiAgICAgICAgICAgICAgICA8Zz4KICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMTcuMTEyIDI3LjkyNWMtNi4wMDYgMC0xMS41NDEtMS4xODEtMTYuMjA3LTMuMzkzbC43MjYtMS41ODFDMTcuNjY2IDMwLjU0OSA0NC40NCAyNS40MjQgNjQuNTg3LjkyNWwxLjMxOCAxLjExOEM1MS4wMSAyMC4xNTYgMzIuNTEyIDI3LjkyNSAxNy4xMTIgMjcuOTI1eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTE2MyAtMjc4OCkgdHJhbnNsYXRlKDAgMjYyMCkgc2NhbGUoMSAtMSkgcm90YXRlKDEzIDEwMTIuNTEgNjQwLjI5NikiLz4KICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNNjYuNDU0IDkuMTA1TDY0LjI4NiA4LjkwOSA2NC45NzEgMi42NDIgNTcuOTEyIDQuMDg0IDU3LjQzNiAyLjE0NyA2Ny40MzYgMC4xMDV6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMTYzIC0yNzg4KSB0cmFuc2xhdGUoMCAyNjIwKSBzY2FsZSgxIC0xKSByb3RhdGUoMTMgMTAxMi41MSA2NDAuMjk2KSIvPgogICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICA8L2c+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4K"
+
+/***/ }),
+/* 71 */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NSIgaGVpZ2h0PSI0MCIgdmlld0JveD0iMCAwIDk1IDQwIj4NCiAgICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8ZyBmaWxsPSIjRkNDNTAwIiBmaWxsLXJ1bGU9Im5vbnplcm8iPg0KICAgICAgICAgICAgPGc+DQogICAgICAgICAgICAgICAgPGc+DQogICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0yMy4xOSA0MEMxNC41OTUgNDAgNi42NzYgMzguMzM3IDAgMzUuMjI0TDEuMDM5IDMzQzIzLjk4MiA0My42OTIgNjIuMjg5IDM2LjQ3OSA5MS4xMTUgMkw5MyAzLjU3NEM3MS42OSAyOS4wNjUgNDUuMjIyIDQwIDIzLjE5IDQweiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTQ3MiAtMjYxMykgdHJhbnNsYXRlKDEgMjI2OCkgdHJhbnNsYXRlKDQ3MS42NTMgMzQ1KSIvPg0KICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNOTIuNjI1IDEzTDg5LjU5MSAxMi43MTcgOTAuNTQ5IDMuNjY1IDgwLjY2NyA1Ljc0OCA4MCAyLjk1IDk0IDB6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNDcyIC0yNjEzKSB0cmFuc2xhdGUoMSAyMjY4KSB0cmFuc2xhdGUoNDcxLjY1MyAzNDUpIi8+DQogICAgICAgICAgICAgICAgPC9nPg0KICAgICAgICAgICAgPC9nPg0KICAgICAgICA8L2c+DQogICAgPC9nPg0KPC9zdmc+DQo="
+
+/***/ }),
+/* 72 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/step-2.7be7c0e.png";
+
+/***/ }),
+/* 73 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/step-2.8af9c4a.png";
+
+/***/ }),
+/* 74 */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NCIgaGVpZ2h0PSI0NCIgdmlld0JveD0iMCAwIDc0IDQ0Ij4KICAgIDxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgZmlsbD0iI0ZDQzUwMCIgZmlsbC1ydWxlPSJub256ZXJvIj4KICAgICAgICAgICAgPGc+CiAgICAgICAgICAgICAgICA8Zz4KICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMTcuMTEyIDI3LjkyNWMtNi4wMDYgMC0xMS41NDEtMS4xODEtMTYuMjA3LTMuMzkzbC43MjYtMS41ODFDMTcuNjY2IDMwLjU0OSA0NC40NCAyNS40MjQgNjQuNTg3LjkyNWwxLjMxOCAxLjExOEM1MS4wMSAyMC4xNTYgMzIuNTEyIDI3LjkyNSAxNy4xMTIgMjcuOTI1eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTMzOCAtMjc4OCkgdHJhbnNsYXRlKDAgMjYyMCkgcm90YXRlKDEzIC01NjguMTY5IDE1OTguMzM4KSIvPgogICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik02Ni40NTQgOS4xMDVMNjQuMjg2IDguOTA5IDY0Ljk3MSAyLjY0MiA1Ny45MTIgNC4wODQgNTcuNDM2IDIuMTQ3IDY3LjQzNiAwLjEwNXoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zMzggLTI3ODgpIHRyYW5zbGF0ZSgwIDI2MjApIHJvdGF0ZSgxMyAtNTY4LjE2OSAxNTk4LjMzOCkiLz4KICAgICAgICAgICAgICAgIDwvZz4KICAgICAgICAgICAgPC9nPgogICAgICAgIDwvZz4KICAgIDwvZz4KPC9zdmc+Cg=="
+
+/***/ }),
+/* 75 */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NSIgaGVpZ2h0PSI0MiIgdmlld0JveD0iMCAwIDk1IDQyIj4NCiAgICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8ZyBmaWxsPSIjRkNDNTAwIiBmaWxsLXJ1bGU9Im5vbnplcm8iPg0KICAgICAgICAgICAgPGc+DQogICAgICAgICAgICAgICAgPGc+DQogICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0yMy4xOSA0MC44MDhjLTguNTk1IDAtMTYuNTE0LTEuNjYzLTIzLjE5LTQuNzc2bDEuMDM5LTIuMjI1YzIyLjk0MyAxMC42OTMgNjEuMjUgMy40OCA5MC4wNzYtMzFMOTMgNC4zODJDNzEuNjkgMjkuODczIDQ1LjIyMiA0MC44MDggMjMuMTkgNDAuODA4eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTg4MiAtMjYxMikgdHJhbnNsYXRlKDEgMjI2OCkgbWF0cml4KDEgMCAwIC0xIDg4MS42NTMgMzg1LjE5MikiLz4NCiAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTkyLjYyNSAxMy44MDhMODkuNTkxIDEzLjUyNSA5MC41NDkgNC40NzMgODAuNjY3IDYuNTU2IDgwIDMuNzU4IDk0IDAuODA4eiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTg4MiAtMjYxMikgdHJhbnNsYXRlKDEgMjI2OCkgbWF0cml4KDEgMCAwIC0xIDg4MS42NTMgMzg1LjE5MikiLz4NCiAgICAgICAgICAgICAgICA8L2c+DQogICAgICAgICAgICA8L2c+DQogICAgICAgIDwvZz4NCiAgICA8L2c+DQo8L3N2Zz4NCg=="
+
+/***/ }),
+/* 76 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/step-3.4a35b39.png";
+
+/***/ }),
+/* 77 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/step-3.583a7b5.png";
+
+/***/ }),
+/* 78 */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjkiIHZpZXdCb3g9IjAgMCA1IDkiPgogICAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBmaWxsPSIjMjAyMDIwIj4KICAgICAgICAgICAgPGc+CiAgICAgICAgICAgICAgICA8Zz4KICAgICAgICAgICAgICAgICAgICA8Zz4KICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGggZD0iTTExNC4xNiAxMy4wNTNsMy44OTMtMy44OTNjLjIyNy0uMjEzLjU3NC0uMjEzLjc4NyAwIC4yMTMuMjEzLjIxMy41NiAwIC43ODdsLTMuNTA3IDMuNTA2IDMuNTA3IDMuNTA3Yy4yMTMuMjEzLjIxMy41NzMgMCAuNzg3LS4yMTMuMjEzLS41Ni4yMTMtLjc4NyAwbC0zLjg5My0zLjkwN2MtLjIxMy0uMjEzLS4yMTMtLjU2IDAtLjc4N3oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC05NTIgLTMxNjgpIHRyYW5zbGF0ZSgwIDI5MTgpIHRyYW5zbGF0ZSg0ODMgMjQxKSB0cmFuc2xhdGUoMzU1KSBtYXRyaXgoLTEgMCAwIDEgMjMzIDApIi8+CiAgICAgICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICAgICAgPC9nPgogICAgICAgICAgICA8L2c+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4K"
+
+/***/ }),
+/* 79 */
+/***/ (function(module, exports, __webpack_require__) {
+
 var map = {
-	"./img1.png": 56,
-	"./img2.png": 57,
-	"./img3.png": 58,
-	"./img4.png": 59
+	"./img1.png": 80,
+	"./img2.png": 81,
+	"./img3.png": 82,
+	"./img4.png": 83
 };
 
 
@@ -237,88 +375,174 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 55;
+webpackContext.id = 79;
 
 /***/ }),
-/* 56 */
+/* 80 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/img1.fc5ffaf.png";
 
 /***/ }),
-/* 57 */
+/* 81 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/img2.0cba968.png";
 
 /***/ }),
-/* 58 */
+/* 82 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/img3.158f756.png";
 
 /***/ }),
-/* 59 */
+/* 83 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/img4.a8e7182.png";
 
 /***/ }),
-/* 60 */
+/* 84 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/food.6eda859.svg";
+var map = {
+	"./img1.png": 85,
+	"./img2.png": 86,
+	"./img3.png": 87,
+	"./img4.png": 88
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = 84;
 
 /***/ }),
-/* 61 */
+/* 85 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "img/chronometer.65f1a64.svg";
+module.exports = __webpack_require__.p + "img/img1.0ae923c.png";
 
 /***/ }),
-/* 62 */
-/***/ (function(module, exports) {
+/* 86 */
+/***/ (function(module, exports, __webpack_require__) {
 
-module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NyIgaGVpZ2h0PSI0NyIgdmlld0JveD0iMCAwIDQ3IDQ3Ij4NCiAgICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8Zz4NCiAgICAgICAgICAgIDxnPg0KICAgICAgICAgICAgICAgIDxnPg0KICAgICAgICAgICAgICAgICAgICA8Zz4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIGZpbGw9IiNEQjA4MTIiIGQ9Ik0uMjY2LjIzNGg0NXYzNWMwIDUuNTIzLTQuNDc4IDEwLTEwIDEwaC0zNXYtNDV6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNDUzIC0zNjg3KSB0cmFuc2xhdGUoMCAyOTE4KSB0cmFuc2xhdGUoMTM4IDMwNCkgdHJhbnNsYXRlKDMxNS43MzQgNDY1Ljc2NikiLz4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIGZpbGw9IiNGQ0M1MTciIGZpbGwtcnVsZT0ibm9uemVybyIgZD0iTTMxLjQ4NCAyMS40MjhIMTQuOTRsMi43NC0yLjgxNmMuMzA3LS4zMTQuMzA4LS44MjQuMDA0LTEuMTQtLjMwNS0uMzE2LS44LS4zMTctMS4xMDUtLjAwM2wtNC4wODMgNC4xOTRjLS4zMDUuMzE1LS4zMDYuODI3IDAgMS4xNDJ2LjAwMUwxNi41NzggMjdjLjMwNS4zMTQuOC4zMTMgMS4xMDQtLjAwMy4zMDUtLjMxNi4zMDQtLjgyNi0uMDAyLTEuMTRsLTIuNzQtMi44MTZoMTYuNTQ0Yy40MzIgMCAuNzgyLS4zNjEuNzgyLS44MDcgMC0uNDQ1LS4zNS0uODA2LS43ODItLjgwNnoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC00NTMgLTM2ODcpIHRyYW5zbGF0ZSgwIDI5MTgpIHRyYW5zbGF0ZSgxMzggMzA0KSB0cmFuc2xhdGUoMzE1LjczNCA0NjUuNzY2KSBtYXRyaXgoMCAxIDEgMCAuMDMxIC0uMDMxKSIvPg0KICAgICAgICAgICAgICAgICAgICA8L2c+DQogICAgICAgICAgICAgICAgPC9nPg0KICAgICAgICAgICAgPC9nPg0KICAgICAgICA8L2c+DQogICAgPC9nPg0KPC9zdmc+DQo="
-
-/***/ }),
-/* 63 */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0NSIgaGVpZ2h0PSI0NSIgdmlld0JveD0iMCAwIDQ1IDQ1Ij4NCiAgICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8Zz4NCiAgICAgICAgICAgIDxnPg0KICAgICAgICAgICAgICAgIDxnPg0KICAgICAgICAgICAgICAgICAgICA8Zz4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxwYXRoIGZpbGw9IiNEQjA4MTIiIGQ9Ik0wIDBoNDV2MzVjMCA1LjUyMy00LjQ3NyAxMC0xMCAxMEgwVjB6IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtNDU2IC0zNjg4KSB0cmFuc2xhdGUoMCAyOTE4KSB0cmFuc2xhdGUoMTQwIDMwNSkgdHJhbnNsYXRlKDMxNiA0NjUpIi8+DQogICAgICAgICAgICAgICAgICAgICAgICA8cGF0aCBmaWxsPSIjRkNDNTE3IiBmaWxsLXJ1bGU9Im5vbnplcm8iIGQ9Ik0yNC40NjYgMjNsNi4yMy02LjIzYy40MDUtLjQwNi40MDUtMS4wNiAwLTEuNDY2LS40MDUtLjQwNS0xLjA2LS40MDUtMS40NjYgMEwyMyAyMS41MzRsLTYuMjMtNi4yM2MtLjQwNi0uNDA1LTEuMDYtLjQwNS0xLjQ2NiAwLS40MDUuNDA1LS40MDUgMS4wNiAwIDEuNDY2bDYuMjMgNi4yMy02LjIzIDYuMjNjLS40MDUuNDA2LS40MDUgMS4wNjEgMCAxLjQ2Ni4yMDIuMjAyLjQ2OC4zMDQuNzMzLjMwNC4yNjUgMCAuNTMtLjEwMi43MzMtLjMwNGw2LjIzLTYuMjMgNi4yMyA2LjIzYy4yMDIuMjAyLjQ2OC4zMDQuNzMzLjMwNC4yNjUgMCAuNTMtLjEwMi43MzMtLjMwNC40MDUtLjQwNS40MDUtMS4wNiAwLTEuNDY1TDI0LjQ2NiAyM3oiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC00NTYgLTM2ODgpIHRyYW5zbGF0ZSgwIDI5MTgpIHRyYW5zbGF0ZSgxNDAgMzA1KSB0cmFuc2xhdGUoMzE2IDQ2NSkiLz4NCiAgICAgICAgICAgICAgICAgICAgPC9nPg0KICAgICAgICAgICAgICAgIDwvZz4NCiAgICAgICAgICAgIDwvZz4NCiAgICAgICAgPC9nPg0KICAgIDwvZz4NCjwvc3ZnPg0K"
+module.exports = __webpack_require__.p + "img/img2.7f961a2.png";
 
 /***/ }),
-/* 64 */
+/* 87 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/img3.a78e130.png";
+
+/***/ }),
+/* 88 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/img4.35a0e21.png";
+
+/***/ }),
+/* 89 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var map = {
+	"./img1.png": 90,
+	"./img2.png": 91,
+	"./img3.png": 92,
+	"./img4.png": 93
+};
+
+
+function webpackContext(req) {
+	var id = webpackContextResolve(req);
+	return __webpack_require__(id);
+}
+function webpackContextResolve(req) {
+	if(!__webpack_require__.o(map, req)) {
+		var e = new Error("Cannot find module '" + req + "'");
+		e.code = 'MODULE_NOT_FOUND';
+		throw e;
+	}
+	return map[req];
+}
+webpackContext.keys = function webpackContextKeys() {
+	return Object.keys(map);
+};
+webpackContext.resolve = webpackContextResolve;
+module.exports = webpackContext;
+webpackContext.id = 89;
+
+/***/ }),
+/* 90 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/img1.3f43fb3.png";
+
+/***/ }),
+/* 91 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/img2.5d385e5.png";
+
+/***/ }),
+/* 92 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/img3.4de2097.png";
+
+/***/ }),
+/* 93 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "img/img4.70d5b21.png";
+
+/***/ }),
+/* 94 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4IiBoZWlnaHQ9IjE4IiB2aWV3Qm94PSIwIDAgOCAxOCI+DQogICAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4NCiAgICAgICAgPGcgZmlsbD0iI0ZGRiIgZmlsbC1ydWxlPSJub256ZXJvIj4NCiAgICAgICAgICAgIDxnPg0KICAgICAgICAgICAgICAgIDxnPg0KICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMiAxOS4wOTR2LTguNTQ2SDBWNy43aDJWNS4yODdDMiAzLjEyOCAzLjA2NSAyIDUuNDYxIDJIOHYzLjU2MUg2LjA3N2MtLjYxNiAwLS43NDMuMjctLjc0My45NVY3LjdIOGwtLjIzOCAyLjg0OEg1LjMzM3Y4LjU0NkwyIDE5LjA5NHoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMTczIC00NDg3KSB0cmFuc2xhdGUoMCA0MzY4KSB0cmFuc2xhdGUoMTE3MyAxMTcpIi8+DQogICAgICAgICAgICAgICAgPC9nPg0KICAgICAgICAgICAgPC9nPg0KICAgICAgICA8L2c+DQogICAgPC9nPg0KPC9zdmc+DQo="
 
 /***/ }),
-/* 65 */
+/* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/instagram.c4e07fa.svg";
 
 /***/ }),
-/* 66 */
+/* 96 */
 /***/ (function(module, exports) {
 
 module.exports = "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDIwIDE2Ij4NCiAgICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPg0KICAgICAgICA8ZyBmaWxsPSIjRkZGIiBmaWxsLXJ1bGU9Im5vbnplcm8iPg0KICAgICAgICAgICAgPGc+DQogICAgICAgICAgICAgICAgPGc+DQogICAgICAgICAgICAgICAgICAgIDxwYXRoIGQ9Ik0xMjMuMzQ1IDMuMTU4YzMuMjUxLjIyMyAzLjYzIDIuMjA0IDMuNjU0IDcuMzg3LS4wMjQgNS4xOS0uNDA3IDcuMTYzLTMuNjU0IDcuMzg3LTEuNS4xLTMuOTE0LjE1NC02LjMzLjE1NC0yLjQxOCAwLTQuODU5LS4wNTEtNi4zNjItLjE1NC0zLjI1LS4yMjQtMy42My0yLjIwNC0zLjY1NC03LjM4Ny4wMjQtNS4xOTEuNDA3LTcuMTY0IDMuNjU0LTcuMzg3IDMtLjIgOS42OS0uMjA2IDEyLjY5MiAwek0xMTQuNSA3LjE5NHY2LjcwMmw2LjY2Ni0zLjM1Ny02LjY2Ni0zLjM0NXoiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0xMjgwIC00NDg4KSB0cmFuc2xhdGUoMCA0MzY4KSB0cmFuc2xhdGUoMTE3MyAxMTcpIi8+DQogICAgICAgICAgICAgICAgPC9nPg0KICAgICAgICAgICAgPC9nPg0KICAgICAgICA8L2c+DQogICAgPC9nPg0KPC9zdmc+DQo="
 
 /***/ }),
-/* 67 */
+/* 97 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/mail.df0d1c7.svg";
 
 /***/ }),
-/* 68 */
+/* 98 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__.p + "img/phone.cabb782.svg";
 
 /***/ }),
-/* 69 */
+/* 99 */
 /***/ (function(module, exports) {
 
 // Exports
@@ -328,7 +552,7 @@ module.exports = {
 
 
 /***/ }),
-/* 70 */
+/* 100 */
 /***/ (function(module, exports) {
 
 // Exports
@@ -338,41 +562,71 @@ module.exports = {
 
 
 /***/ }),
-/* 71 */
+/* 101 */
+/***/ (function(module, exports) {
+
+// Exports
+module.exports = {
+
+};
+
+
+/***/ }),
+/* 102 */
+/***/ (function(module, exports) {
+
+// Exports
+module.exports = {
+
+};
+
+
+/***/ }),
+/* 103 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(26);
+/* harmony import */ var _node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(38);
 /* harmony import */ var _node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
 /* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_css_loader_dist_cjs_js_ref_7_oneOf_1_0_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_oneOf_1_1_node_modules_sass_loader_dist_cjs_js_ref_7_oneOf_1_2_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_index_vue_vue_type_style_index_0_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
-/* 72 */,
-/* 73 */
+/* 104 */,
+/* 105 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=template&id=9d1fd02a&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._ssrNode("<nav id=\"navigation\" class=\"navigation\"><div id=\"navigation__left-part\" class=\"navigation__left-part\"><a class=\"navigation-brand\"><img"+(_vm._ssrAttr("src",__webpack_require__(28)))+" class=\"navigation-logo\"></a></div> <div class=\"navigation__right-part\"><div id=\"navigation__right-part--desktop\" class=\"navigation__right-part--desktop\"><a href=\"#products\" style=\"text-decoration: none\"><h5 class=\"navigation__right-part--desktop__text\">Products</h5></a> <a href=\"#features\" style=\"text-decoration: none\"><h5 class=\"navigation__right-part--desktop__text\">Features</h5></a> <a href=\"#steps\" style=\"text-decoration: none\"><h5 class=\"navigation__right-part--desktop__text\">\n            Preparation\n          </h5></a> <a href=\"#recipes\" style=\"text-decoration: none\"><h5 class=\"navigation__right-part--desktop__text\">Recipes</h5></a> <a href=\"#testimonials\" style=\"text-decoration: none\"><h5 class=\"navigation__right-part--desktop__text\">\n            Testimonials\n          </h5></a> <div class=\"navigation__right-part--desktop__button\">\n          Buy Now\n        </div> <div id=\"buy-now__section--desktop\" class=\"buy-now__section--hide\"><div class=\"buy-now-container\"><div><div class=\"buy-now__company-logo\"><a href=\"#\"><img"+(_vm._ssrAttr("src",__webpack_require__(21)))+" alt></a></div> <div class=\"buy-now__company-logo\"><a href=\"#\"><img"+(_vm._ssrAttr("src",__webpack_require__(22)))+" alt></a></div></div> <div><div class=\"buy-now__company-logo\"><a href=\"#\"><img"+(_vm._ssrAttr("src",__webpack_require__(23)))+" alt></a></div> <div class=\"buy-now__company-logo\"><a href=\"#\"><img"+(_vm._ssrAttr("src",__webpack_require__(24)))+" alt></a></div></div></div></div></div> <div class=\"navigation__right-part--mobile\"><img"+(_vm._ssrAttr("src",__webpack_require__(29)))+" id=\"hamburger__menu\" class=\"hamburger__menu\"> <img"+(_vm._ssrAttr("src",__webpack_require__(30)))+" id=\"hamburger__menu--yellow\" class=\"hamburger__menu--yellow removeClass\"></div></div> <div id=\"navigation__mobile\""+(_vm._ssrClass("navigation__mobile",_vm.showNavBar ? 'show__navigation__mobile' : ''))+"><div class=\"close__menu\"><img"+(_vm._ssrAttr("src",__webpack_require__(31)))+" id=\"close__menu\"></div> <a href=\"#products\" style=\"text-decoration: none\"><h5 class=\"navigation__mobile-text\">Products</h5></a> <a href=\"#features\" style=\"text-decoration: none\"><h5 class=\"navigation__mobile-text\">Features</h5></a> <a href=\"#steps\" style=\"text-decoration: none\"><h5 class=\"navigation__mobile-text\">Preparation</h5></a> <a href=\"#recipes\" style=\"text-decoration: none\"><h5 class=\"navigation__mobile-text\">Recipes</h5></a> <a href=\"#testimonials\" style=\"text-decoration: none\"><h5 class=\"navigation__mobile-text\">Testimonials</h5></a></div></nav> <div class=\"buy-now-button__mobile\""+(_vm._ssrStyle(null,null, { display: (_vm.showBottomBuyNow) ? '' : 'none' }))+">\n    Buy Now\n    <span><img"+(_vm._ssrAttr("src",__webpack_require__(32)))+" class=\"buy-now-button__mobile-image\"></span> <div id=\"buy-now__section--mobile\" class=\"buy-now__section--hide\"><div class=\"buy-now-container\"><div><div class=\"buy-now__company-logo\"><a href=\"#\"><img"+(_vm._ssrAttr("src",__webpack_require__(21)))+" alt></a></div> <div class=\"buy-now__company-logo\"><a href=\"#\"><img"+(_vm._ssrAttr("src",__webpack_require__(22)))+" alt></a></div></div> <div><div class=\"buy-now__company-logo\"><a href=\"#\"><img"+(_vm._ssrAttr("src",__webpack_require__(23)))+" alt></a></div> <div class=\"buy-now__company-logo\"><a href=\"#\"><img"+(_vm._ssrAttr("src",__webpack_require__(24)))+" alt></a></div></div></div></div></div> <div id=\"back-to-top__container\" class=\"back-to-top__container--hide\"><a href=\"#top-banner\" style=\"text-decoration: none\"><img"+(_vm._ssrAttr("src",__webpack_require__(33)))+" class=\"back-to-top__image img-responsive img-fluid\"></a></div> "),_vm._ssrNode("<section id=\"top-banner\">","</section>",[_c('VueSlickCarousel',{staticClass:"top-banner-carousel",attrs:{"arrows":false,"dots":true}},[_c('div',{staticClass:"bannerOne"},[_c('div',{staticClass:"leftPart"},[_c('img',{staticClass:"img-responsive img-fluid images",attrs:{"src":__webpack_require__(25)}}),_vm._v(" "),_c('div',{staticClass:"disclaimer-text disclamer-text__large-screen"},[_vm._v("\n            Disclaimer: Vegetables are dehydrated to maintain goodness and\n            taste, Creative visualization, Suggested garnishing\n          ")])]),_vm._v(" "),_c('div',{staticClass:"rightPart"},[_c('h1',{staticClass:"right-side__main-text"},[_vm._v("\n            Lip-smacking"),_c('br'),_vm._v("flavours to\n            "),_c('span',{staticClass:"right-side__main-text--yellow"},[_vm._v("snack healthy")])]),_vm._v(" "),_c('p',{staticClass:"right-side__sub-text"},[_vm._v("\n            With wholegrain oats + real veggies*\n          ")]),_vm._v(" "),_c('div',{staticClass:"disclaimer-text disclamer-text__small-screen"},[_vm._v("\n            Disclaimer: Vegetables are dehydrated to maintain goodness and\n            taste, Creative visualization, Suggested garnishing\n          ")])])]),_vm._v(" "),_c('div',{staticClass:"bannerTwo"},[_c('div',{staticClass:"leftPart"},[_c('img',{staticClass:"img-responsive img-fluid images",attrs:{"src":__webpack_require__(34)}})]),_vm._v(" "),_c('div',{staticClass:"rightPart"},[_c('h1',{staticClass:"right-side__main-text"},[_vm._v("\n            Oh-so delicious!\n            "),_c('span',{staticClass:"right-side__main-text--yellow"},[_vm._v(" A snack for")]),_vm._v(" "),_c('span',{staticClass:"right-side__main-text--yellow"},[_vm._v("your anytime")]),_vm._v(" "),_c('span',{staticClass:"right-side__main-text--yellow"},[_vm._v(" cravings! ")])]),_vm._v(" "),_c('div',{staticClass:"disclaimer-text disclamer-text__small-screen"},[_vm._v("\n            Disclaimer: Vegetables are dehydrated to maintain goodness and\n            taste, Creative visualization, Suggested garnishing\n          ")])])]),_vm._v(" "),_c('div',{staticClass:"bannerThree"},[_c('div',{staticClass:"leftPart"},[_c('img',{staticClass:"img-responsive img-fluid images",attrs:{"src":__webpack_require__(25)}})]),_vm._v(" "),_c('div',{staticClass:"rightPart"},[_c('h1',{staticClass:"right-side__main-text"},[_vm._v("\n            Delightful"),_c('br'),_vm._v("snack ready\n            "),_c('span',{staticClass:"right-side__main-text--yellow"},[_vm._v("in just")]),_vm._v(" "),_c('span',{staticClass:"right-side__main-text--yellow"},[_vm._v("3 minutes!")])]),_vm._v(" "),_c('div',{staticClass:"disclaimer-text disclamer-text__small-screen"},[_vm._v("\n            Disclaimer: Vegetables are dehydrated to maintain goodness and\n            taste, Creative visualization, Suggested garnishing\n          ")])])])])],1),_vm._ssrNode(" <section id=\"products\" class=\"products\"></section> <section id=\"features\" class=\"features\"><div class=\"features__container\"><div class=\"features__left-part\"><h2 class=\"features__heading\">Delicious and healthy too!</h2> <div class=\"features__left-part--icons-container\"><div class=\"features__column\"><div class=\"feature__item\"><div class=\"feature__item--image\"><img"+(_vm._ssrAttr("src",__webpack_require__(35)))+" class=\"feature-image img-responsive img-fluid\"> <h4 class=\"feature-text\">100%<br>wholegrain oats</h4></div></div> <div class=\"feature__item\"><div class=\"feature__item--image\"><img"+(_vm._ssrAttr("src",__webpack_require__(36)))+" class=\"feature-image img-responsive img-fluid\"> <h4 class=\"feature-text\">100%<br>wholegrain oats</h4></div></div></div> <div class=\"features__column\"><div class=\"feature__item\"><div class=\"feature__item--image\"><img"+(_vm._ssrAttr("src",__webpack_require__(37)))+" class=\"feature-image img-responsive img-fluid\"> <h4 class=\"feature-text\">Real<br>Vegetables*</h4></div></div> <div class=\"feature__item\"><div class=\"feature__item--image\"><img"+(_vm._ssrAttr("src",__webpack_require__(38)))+" class=\"feature-image img-responsive img-fluid\"> <h4 class=\"feature-text\">Upto 70%<br>less fat***</h4></div></div></div> <div class=\"features__column\"><div class=\"feature__item\"><div class=\"feature__item--image\"><img"+(_vm._ssrAttr("src",__webpack_require__(39)))+" class=\"feature-image img-responsive img-fluid\"> <h4 class=\"feature-text\">No added<br>preservatives</h4></div></div> <div class=\"feature__item\"><div class=\"feature__item--image\"><img"+(_vm._ssrAttr("src",__webpack_require__(40)))+" class=\"feature-image img-responsive img-fluid\"> <h4 class=\"feature-text\">Ready in<br>3 minutes</h4></div></div></div></div> <div class=\"disclaimer-container\"><h6 class=\"features__disclaimer-text\">\n            *Vegetables are dehydrated to maintain its goodness and taste.\n          </h6> <h6 class=\"features__disclaimer-text\">\n            **Oats have beta- glucan fiber that keeps you fuller for longer\n          </h6> <h6 class=\"features__disclaimer-text\">\n            ***Study dated 31/08/17 based on declared nutrient information of\n            instant noodles vs Saffola Masala Oats.\n          </h6></div></div> <div class=\"features__right-part\"><picture><source"+(_vm._ssrAttr("srcset",__webpack_require__(41)))+" media=\"(max-width: 600px)\" class=\"img-responsve img-fluid\"> <source"+(_vm._ssrAttr("srcset",__webpack_require__(42)))+" media=\"(max-width: 992px)\" class=\"img-reponsive img-fluid\"> <img"+(_vm._ssrAttr("src",__webpack_require__(43)))+" class=\"img-reponsive img-fluid features__right-part--image\"></picture></div></div></section> <section id=\"steps\" class=\"steps\"><h2 class=\"steps__heading\">Easy to cook, easy to serve!</h2> <div class=\"steps__container\"><div class=\"step\"><div class=\"step--image\"><picture><source"+(_vm._ssrAttr("srcset",__webpack_require__(44)))+" media=\"(max-width: 767px)\"> <img"+(_vm._ssrAttr("src",__webpack_require__(45)))+"></picture></div> <p class=\"step--text\">\n          For every cup of Saffola Oats, add 1 ½ cups of water in a pan\n        </p></div> <div class=\"arrow\"><picture><source"+(_vm._ssrAttr("srcset",__webpack_require__(46)))+" media=\"(max-width: 600px)\"> <img"+(_vm._ssrAttr("src",__webpack_require__(47)))+" class=\"arrow__image\"></picture></div> <div class=\"step\"><div class=\"step--image\"><picture><source"+(_vm._ssrAttr("srcset",__webpack_require__(48)))+" media=\"(max-width: 767px)\"> <img"+(_vm._ssrAttr("src",__webpack_require__(49)))+"></picture></div> <p class=\"step--text\">\n          Cook on medium flame for 3 minutes or microwave for 3 minutes on\n          full power. Stir occasionally\n        </p></div> <div class=\"arrow\"><picture><source"+(_vm._ssrAttr("srcset",__webpack_require__(50)))+" media=\"(max-width: 600px)\"> <img"+(_vm._ssrAttr("src",__webpack_require__(51)))+" class=\"arrow__image\"></picture></div> <div class=\"step\"><div class=\"step--image\"><picture><source"+(_vm._ssrAttr("srcset",__webpack_require__(52)))+" media=\"(max-width: 767px)\"> <img"+(_vm._ssrAttr("src",__webpack_require__(53)))+"></picture></div> <p class=\"step--text\">\n          Serve hot to enjoy the distinct flavours. Garnish with veggies,\n          herbs and choice of toppings.\n        </p></div></div></section> <div class=\"section-divider--bottom\"></div> "),_vm._ssrNode("<section id=\"recipes\" class=\"recipes\">","</section>",[_vm._ssrNode("<h2 class=\"recipes__heading\">Steaming Yummy Recipes with Saffola Oats</h2> <ul id=\"cuisines\" role=\"tablist\" class=\"nav\"><li class=\"nav-item\"><a id=\"indian-tab\" data-toggle=\"tab\" href=\"#indian\" role=\"tab\" aria-controls=\"indian\" aria-selected=\"true\" class=\"nav-link active recipes__cuisines\">Indian</a></li> <li class=\"nav-item\"><a id=\"italian-tab\" data-toggle=\"tab\" href=\"#italian\" role=\"tab\" aria-controls=\"italian\" aria-selected=\"false\" class=\"nav-link recipes__cuisines\">Italian/Chinese</a></li> <li class=\"nav-item\"><a id=\"continental-tab\" data-toggle=\"tab\" href=\"#continental\" role=\"tab\" aria-controls=\"contitnental\" aria-selected=\"false\" class=\"nav-link recipes__cuisines\">Continental</a></li> <li class=\"nav-item\"><a id=\"more-tab\" href=\"http://fitfoodie.in/\" target=\"_blank\" class=\"nav-link recipes__cuisines\">More Recipes\n          <span><img"+(_vm._ssrAttr("src",__webpack_require__(54)))+"></span></a></li></ul> "),_vm._ssrNode("<div id=\"recipes-tabs\" class=\"tab-content\">","</div>",[_vm._ssrNode("<div id=\"indian\" role=\"tabpanel\" aria-labelledby=\"indian-tab\" class=\"tab-pane fade show active\">","</div>",[_c('client-only',[_c('VueSlickCarousel',_vm._b({staticClass:"recipes-carousel"},'VueSlickCarousel',_vm.recipesSettings,false),_vm._l((_vm.indianRecipes),function(recipe){return _c('div',{key:recipe.id,staticClass:"recipe"},[_c('div',{staticClass:"recipe-container"},[_c('div',{staticClass:"recipe__image-container"},[_c('img',{attrs:{"src":__webpack_require__(55)("./" + (recipe.recipeImage) + ".png")}})]),_vm._v(" "),_c('div',{staticClass:"recipe__text-container"},[_c('h3',{staticClass:"recipe--title"},[_vm._v("\n                    "+_vm._s(recipe.title)+"\n                  ")]),_vm._v(" "),_c('div',{staticClass:"recipe__details-container"},[_c('div',{staticClass:"recipe__serving"},[_c('img',{staticClass:"recipe__serving--image",attrs:{"src":__webpack_require__(60)}}),_vm._v(" "),_c('p',{staticClass:"recipe__serving--text"},[_vm._v("\n                        "+_vm._s(recipe.serving)+"\n                      ")])]),_vm._v(" "),_c('div',{staticClass:"recipe__cooking-time"},[_c('img',{staticClass:"recipe__cooking-time--image",attrs:{"src":__webpack_require__(61)}}),_vm._v(" "),_c('p',{staticClass:"recipe__cooking-time--text"},[_vm._v("\n                        "+_vm._s(recipe.cookingTime)+"\n                      ")])])])]),_vm._v(" "),_c('div',{staticClass:"recipe-open__image-container",on:{"click":function($event){return _vm.activateRecipe(recipe.id)}}},[_c('img',{staticClass:"recipe__open-image img-responsive img-fluid",attrs:{"src":__webpack_require__(62)}})]),_vm._v(" "),_c('div',{staticClass:"recipe__method-container",class:_vm.addRecipeActiveClass(recipe.id)},[_c('h5',{staticClass:"recipe__method--heading"},[_vm._v("Ingredients:")]),_vm._v(" "),_vm._l((recipe.recipeIngredients),function(ingredients){return _c('p',{key:ingredients,staticClass:"recipe__method--sub-text"},[_vm._v("\n                    "+_vm._s(ingredients)+"\n                  ")])}),_vm._v(" "),_c('h5',{staticClass:"recipe__method--heading"},[_vm._v("Method:")]),_vm._v(" "),_vm._l((recipe.recipeMethods),function(methods){return _c('p',{key:methods,staticClass:"recipe__method--sub-text"},[_vm._v("\n                    "+_vm._s(methods)+"\n                  ")])}),_vm._v(" "),_c('div',{staticClass:"recipe-close__image-container",on:{"click":function($event){return _vm.deactivateRecipe(recipe.id)}}},[_c('img',{staticClass:"recipe__close-image img-responsive img-fluid",attrs:{"src":__webpack_require__(63)}})])],2)])])}),0)],1)],1),_vm._ssrNode(" <div id=\"italian\" role=\"tabpanel\" aria-labelledby=\"italian-tab\" class=\"tab-pane fade\"></div> <div id=\"continental\" role=\"tabpanel\" aria-labelledby=\"continental-tab\" class=\"tab-pane fade\"></div>")],2)],2),_vm._ssrNode(" "),_vm._ssrNode("<section id=\"testimonials\" class=\"testimonials\">","</section>",[_vm._ssrNode("<h2 class=\"testimonials__heading\">From one foodie to another</h2> "),_c('VueSlickCarousel',_vm._b({staticClass:"testimonial-carousel"},'VueSlickCarousel',_vm.testimonialsSettings,false),[_c('div',{staticClass:"testimonial"},[_c('div',{staticClass:"testimonail__image-container"},[_c('img',{staticClass:"testimonial__image",attrs:{"src":__webpack_require__(20)}})]),_vm._v(" "),_c('div',{staticClass:"testimonial__text"},[_c('p',{staticClass:"testimonial__text--main"},[_vm._v("\n            Saffola Masala Oats is a good option to increase the fiber content\n            in your food and minimize carbohydrates in your diet.\n          ")]),_vm._v(" "),_c('hr',{staticClass:"testimonial__horizontal-line"}),_vm._v(" "),_c('h4',{staticClass:"testimonial__author--name"},[_vm._v("Jane Doe")]),_vm._v(" "),_c('h6',{staticClass:"testimonial__author--designation"},[_vm._v("Student")])])]),_vm._v(" "),_c('div',{staticClass:"testimonial"},[_c('div',{staticClass:"testimonail__image-container"},[_c('img',{staticClass:"testimonial__image",attrs:{"src":__webpack_require__(20)}})]),_vm._v(" "),_c('div',{staticClass:"testimonial__text"},[_c('p',{staticClass:"testimonial__text--main"},[_vm._v("\n            Saffola Masala Oats is a good option to increase the fiber content\n            in your food and minimize carbohydrates in your diet.\n          ")]),_vm._v(" "),_c('hr',{staticClass:"testimonial__horizontal-line"}),_vm._v(" "),_c('h4',{staticClass:"testimonial__author--name"},[_vm._v("Jane Doe")]),_vm._v(" "),_c('h6',{staticClass:"testimonial__author--designation"},[_vm._v("Student")])])]),_vm._v(" "),_c('div',{staticClass:"testimonial"},[_c('div',{staticClass:"testimonail__image-container"},[_c('img',{staticClass:"testimonial__image",attrs:{"src":__webpack_require__(20)}})]),_vm._v(" "),_c('div',{staticClass:"testimonial__text"},[_c('p',{staticClass:"testimonial__text--main"},[_vm._v("\n            Saffola Masala Oats is a good option to increase the fiber content\n            in your food and minimize carbohydrates in your diet.\n          ")]),_vm._v(" "),_c('hr',{staticClass:"testimonial__horizontal-line"}),_vm._v(" "),_c('h4',{staticClass:"testimonial__author--name"},[_vm._v("Jane Doe")]),_vm._v(" "),_c('h6',{staticClass:"testimonial__author--designation"},[_vm._v("Student")])])]),_vm._v(" "),_c('div',{staticClass:"testimonial"},[_c('div',{staticClass:"testimonail__image-container"},[_c('img',{staticClass:"testimonial__image",attrs:{"src":__webpack_require__(20)}})]),_vm._v(" "),_c('div',{staticClass:"testimonial__text"},[_c('p',{staticClass:"testimonial__text--main"},[_vm._v("\n            Saffola Masala Oats is a good option to increase the fiber content\n            in your food and minimize carbohydrates in your diet.\n          ")]),_vm._v(" "),_c('hr',{staticClass:"testimonial__horizontal-line"}),_vm._v(" "),_c('h4',{staticClass:"testimonial__author--name"},[_vm._v("Jane Doe")]),_vm._v(" "),_c('h6',{staticClass:"testimonial__author--designation"},[_vm._v("Student")])])])])],2),_vm._ssrNode(" <footer class=\"footer\"><div class=\"social-media-container\"><div class=\"social-media__left-part\"><h2 class=\"social-media__left-part--white\">Follow us</h2> <h2 class=\"social-media__left-part--yellow\">@saffolafitfoodie</h2></div> <div class=\"social-media__right-part\"><span class=\"social-media-icons\"><img"+(_vm._ssrAttr("src",__webpack_require__(64)))+"></span> <span class=\"social-media-icons\"><img"+(_vm._ssrAttr("src",__webpack_require__(65)))+"></span> <span class=\"social-media-icons\"><img"+(_vm._ssrAttr("src",__webpack_require__(66)))+"></span></div></div> <div class=\"instagram-feed\"><h2>Instagram feed</h2></div> <div class=\"footer-bottom-container\"><div class=\"footer-bottom__left-part\"><div class=\"footer-bottom__left-part--mail\"><span class=\"footer-bottom__left-part--mail-image\"><img"+(_vm._ssrAttr("src",__webpack_require__(67)))+"></span> <span class=\"footer-bottom__left-part--mail-text\">\n            csc@marico.com\n          </span></div> <div class=\"footer-bottom__left-part--phone\"><span class=\"footer-bottom__left-part--phone-image\"><img"+(_vm._ssrAttr("src",__webpack_require__(68)))+"></span> <span class=\"footer-bottom__left-part--phone-image\">1800 - 2345 - 3445</span></div></div> <div class=\"footer-bottom__right-part\"><div class=\"footer-bottom__right-part--text\">\n          Terms &amp; Conditions  |  Privacy Policy\n           |  © 2021 Saffola. All Rights Reserved\n        </div></div></div></footer>")],2)}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=template&id=2fe60b4e&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_vm._ssrNode("<nav id=\"navigation\" class=\"navigation\"><div id=\"navigation__left-part\" class=\"navigation__left-part\"><a class=\"navigation-brand\"><img"+(_vm._ssrAttr("src",__webpack_require__(40)))+" class=\"navigation-logo\"></a></div> <div class=\"navigation__right-part\"><div id=\"navigation__right-part--desktop\" class=\"navigation__right-part--desktop\"><a href=\"#products\" style=\"text-decoration: none\"><h5 class=\"navigation__right-part--desktop__text\">Products</h5></a> <a href=\"#features\" style=\"text-decoration: none\"><h5 class=\"navigation__right-part--desktop__text\">Features</h5></a> <a href=\"#steps\" style=\"text-decoration: none\"><h5 class=\"navigation__right-part--desktop__text\">\n            Preparation\n          </h5></a> <a href=\"#recipes\" style=\"text-decoration: none\"><h5 class=\"navigation__right-part--desktop__text\">Recipes</h5></a> <a href=\"#testimonials\" style=\"text-decoration: none\"><h5 class=\"navigation__right-part--desktop__text\">\n            Testimonials\n          </h5></a> <div class=\"navigation__right-part--desktop__button\">\n          Buy Now\n        </div> <div id=\"buy-now__section--desktop\" class=\"buy-now__section--hide\"><div class=\"buy-now-container\"><div><div class=\"buy-now__company-logo\"><a href=\"#\"><img"+(_vm._ssrAttr("src",__webpack_require__(27)))+" alt></a></div> <div class=\"buy-now__company-logo\"><a href=\"#\"><img"+(_vm._ssrAttr("src",__webpack_require__(28)))+" alt></a></div></div> <div><div class=\"buy-now__company-logo\"><a href=\"#\"><img"+(_vm._ssrAttr("src",__webpack_require__(29)))+" alt></a></div> <div class=\"buy-now__company-logo\"><a href=\"#\"><img"+(_vm._ssrAttr("src",__webpack_require__(30)))+" alt></a></div></div></div></div></div> <div class=\"navigation__right-part--mobile\"><img"+(_vm._ssrAttr("src",__webpack_require__(41)))+" id=\"hamburger__menu\" class=\"hamburger__menu\"> <img"+(_vm._ssrAttr("src",__webpack_require__(42)))+" id=\"hamburger__menu--yellow\" class=\"hamburger__menu--yellow removeClass\"></div></div> <div id=\"navigation__mobile\""+(_vm._ssrClass("navigation__mobile",_vm.showNavBar ? 'show__navigation__mobile' : ''))+"><div class=\"close__menu\"><img"+(_vm._ssrAttr("src",__webpack_require__(43)))+" id=\"close__menu\"></div> <a href=\"#products\" style=\"text-decoration: none\"><h5 class=\"navigation__mobile-text\">Products</h5></a> <a href=\"#features\" style=\"text-decoration: none\"><h5 class=\"navigation__mobile-text\">Features</h5></a> <a href=\"#steps\" style=\"text-decoration: none\"><h5 class=\"navigation__mobile-text\">Preparation</h5></a> <a href=\"#recipes\" style=\"text-decoration: none\"><h5 class=\"navigation__mobile-text\">Recipes</h5></a> <a href=\"#testimonials\" style=\"text-decoration: none\"><h5 class=\"navigation__mobile-text\">Testimonials</h5></a></div></nav> <div class=\"buy-now-button__mobile\""+(_vm._ssrStyle(null,null, { display: (_vm.showBottomBuyNow) ? '' : 'none' }))+">\n    Buy Now\n    <span><img"+(_vm._ssrAttr("src",__webpack_require__(44)))+" class=\"buy-now-button__mobile-image\"></span> <div id=\"buy-now__section--mobile\" class=\"buy-now__section--hide\"><div class=\"buy-now-container\"><div><div class=\"buy-now__company-logo\"><a href=\"#\"><img"+(_vm._ssrAttr("src",__webpack_require__(27)))+" alt></a></div> <div class=\"buy-now__company-logo\"><a href=\"#\"><img"+(_vm._ssrAttr("src",__webpack_require__(28)))+" alt></a></div></div> <div><div class=\"buy-now__company-logo\"><a href=\"#\"><img"+(_vm._ssrAttr("src",__webpack_require__(29)))+" alt></a></div> <div class=\"buy-now__company-logo\"><a href=\"#\"><img"+(_vm._ssrAttr("src",__webpack_require__(30)))+" alt></a></div></div></div></div></div> <div id=\"back-to-top__container\" class=\"back-to-top__container--hide\"><a href=\"#top-banner\" style=\"text-decoration: none\"><img"+(_vm._ssrAttr("src",__webpack_require__(45)))+" class=\"back-to-top__image img-responsive img-fluid\"></a></div> "),_vm._ssrNode("<section id=\"top-banner\">","</section>",[_c('VueSlickCarousel',{staticClass:"top-banner-carousel",attrs:{"arrows":false,"dots":true}},[_c('div',{staticClass:"bannerOne"},[_c('div',{staticClass:"leftPart"},[_c('img',{staticClass:"img-responsive img-fluid images",attrs:{"src":__webpack_require__(31)}}),_vm._v(" "),_c('div',{staticClass:"disclaimer-text disclamer-text__large-screen"},[_vm._v("\n            Disclaimer: Vegetables are dehydrated to maintain goodness and\n            taste, Creative visualization, Suggested garnishing\n          ")])]),_vm._v(" "),_c('div',{staticClass:"rightPart"},[_c('h1',{staticClass:"right-side__main-text"},[_vm._v("\n            Lip-smacking"),_c('br'),_vm._v("flavours to\n            "),_c('span',{staticClass:"right-side__main-text--yellow"},[_vm._v("snack healthy")])]),_vm._v(" "),_c('p',{staticClass:"right-side__sub-text"},[_vm._v("\n            With wholegrain oats + real veggies*\n          ")]),_vm._v(" "),_c('div',{staticClass:"disclaimer-text disclamer-text__small-screen"},[_vm._v("\n            Disclaimer: Vegetables are dehydrated to maintain goodness and\n            taste, Creative visualization, Suggested garnishing\n          ")])])]),_vm._v(" "),_c('div',{staticClass:"bannerTwo"},[_c('div',{staticClass:"leftPart"},[_c('img',{staticClass:"img-responsive img-fluid images",attrs:{"src":__webpack_require__(46)}})]),_vm._v(" "),_c('div',{staticClass:"rightPart"},[_c('h1',{staticClass:"right-side__main-text"},[_vm._v("\n            Oh-so delicious!\n            "),_c('span',{staticClass:"right-side__main-text--yellow"},[_vm._v(" A snack for")]),_vm._v(" "),_c('span',{staticClass:"right-side__main-text--yellow"},[_vm._v("your anytime")]),_vm._v(" "),_c('span',{staticClass:"right-side__main-text--yellow"},[_vm._v(" cravings! ")])]),_vm._v(" "),_c('div',{staticClass:"disclaimer-text disclamer-text__small-screen"},[_vm._v("\n            Disclaimer: Vegetables are dehydrated to maintain goodness and\n            taste, Creative visualization, Suggested garnishing\n          ")])])]),_vm._v(" "),_c('div',{staticClass:"bannerThree"},[_c('div',{staticClass:"leftPart"},[_c('img',{staticClass:"img-responsive img-fluid images",attrs:{"src":__webpack_require__(31)}})]),_vm._v(" "),_c('div',{staticClass:"rightPart"},[_c('h1',{staticClass:"right-side__main-text"},[_vm._v("\n            Delightful"),_c('br'),_vm._v("snack ready\n            "),_c('span',{staticClass:"right-side__main-text--yellow"},[_vm._v("in just")]),_vm._v(" "),_c('span',{staticClass:"right-side__main-text--yellow"},[_vm._v("3 minutes!")])]),_vm._v(" "),_c('div',{staticClass:"disclaimer-text disclamer-text__small-screen"},[_vm._v("\n            Disclaimer: Vegetables are dehydrated to maintain goodness and\n            taste, Creative visualization, Suggested garnishing\n          ")])])])])],1),_vm._ssrNode(" "),_vm._ssrNode("<section id=\"products\" class=\"products\">","</section>",[_c('Slick',{attrs:{"id":"productItems","options":_vm.productItemsSettings}},[_c('div',{staticClass:"product-item"},[_c('div',{staticClass:"product-item__left-part"},[_c('img',{staticClass:"product-image",attrs:{"src":__webpack_require__(32)}})]),_vm._v(" "),_c('div',{staticClass:"product-item__right-part"},[_c('h2',{staticClass:"product-item__right-part--heading"},[_vm._v("Classic Masala")]),_vm._v(" "),_c('p',{staticClass:"product-item__right-part--description"},[_vm._v("\n            The heart wants what it wants, so why hold back! Have it as a hot\n            bowl of Oats or as a cold yummy dessert, or as a healthy add-on to\n            your exiting sweet and savoury delights.\n          ")]),_vm._v(" "),_c('div',{staticClass:"product-image__mobile-container"},[_c('img',{staticClass:"product-image product-image-mobile",attrs:{"src":__webpack_require__(32)}})]),_vm._v(" "),_c('div',{staticClass:"product-item__right-part--add-on"},[_c('p',{staticClass:"product-item__right-part--add-on__top-text"},[_vm._v("Add On")]),_vm._v(" "),_c('div',{staticClass:"product-item__right-part--add-on__background-image-container"},[_c('img',{staticClass:"product-item__right-part--add-on__background-image img-responsive img-fluid",attrs:{"src":__webpack_require__(21)}})]),_vm._v(" "),_c('div',{staticClass:"product-item__right-part--add-on__product-image-container"},[_c('img',{staticClass:"product-item__right-part--add-on__product-image img-responsive img-fluid",attrs:{"src":__webpack_require__(47)}})]),_vm._v(" "),_c('p',{staticClass:"product-item__right-part--add-on-text"},[_vm._v("\n              Top your bowl of classic masala oats with crushed peanuts for\n              the extra bite\n            ")])])])]),_vm._v(" "),_c('div',{staticClass:"product-item"},[_c('div',{staticClass:"product-item__left-part"},[_c('img',{staticClass:"product-image",attrs:{"src":__webpack_require__(33)}})]),_vm._v(" "),_c('div',{staticClass:"product-item__right-part"},[_c('h2',{staticClass:"product-item__right-part--heading"},[_vm._v("Peppy Tomato")]),_vm._v(" "),_c('p',{staticClass:"product-item__right-part--description"},[_vm._v("\n            Relish a tangy bowl of Peppy Tomato flavour for the uplifting\n            tingling taste. Indulge your tastebuds in savoury mix of spices\n            and crunchy veggies.\n          ")]),_vm._v(" "),_c('div',{staticClass:"product-image__mobile-container"},[_c('img',{staticClass:"product-image product-image-mobile",attrs:{"src":__webpack_require__(33)}})]),_vm._v(" "),_c('div',{staticClass:"product-item__right-part--add-on"},[_c('p',{staticClass:"product-item__right-part--add-on__top-text"},[_vm._v("Add On")]),_vm._v(" "),_c('div',{staticClass:"product-item__right-part--add-on__background-image-container"},[_c('img',{staticClass:"product-item__right-part--add-on__background-image img-responsive img-fluid",attrs:{"src":__webpack_require__(21)}})]),_vm._v(" "),_c('div',{staticClass:"product-item__right-part--add-on__product-image-container"},[_c('img',{staticClass:"product-item__right-part--add-on__product-image img-responsive img-fluid",attrs:{"src":__webpack_require__(48)}})]),_vm._v(" "),_c('p',{staticClass:"product-item__right-part--add-on-text"},[_vm._v("\n              Add some capsicum to your Peppy Tomato for a desi Mexican touch.\n            ")])])])]),_vm._v(" "),_c('div',{staticClass:"product-item"},[_c('div',{staticClass:"product-item__left-part"},[_c('img',{staticClass:"product-image",attrs:{"src":__webpack_require__(34)}})]),_vm._v(" "),_c('div',{staticClass:"product-item__right-part"},[_c('h2',{staticClass:"product-item__right-part--heading"},[_vm._v("Veggie Twist")]),_vm._v(" "),_c('p',{staticClass:"product-item__right-part--description"},[_vm._v("\n            Satiate your anytime craving with a comforting bowl of your\n            favourite veggies in aromatic blend of chili, garlic, and curry\n            leaves that will leave you wanting for more!\n          ")]),_vm._v(" "),_c('div',{staticClass:"product-image__mobile-container"},[_c('img',{staticClass:"product-image product-image-mobile",attrs:{"src":__webpack_require__(34)}})]),_vm._v(" "),_c('div',{staticClass:"product-item__right-part--add-on"},[_c('p',{staticClass:"product-item__right-part--add-on__top-text"},[_vm._v("Add On")]),_vm._v(" "),_c('div',{staticClass:"product-item__right-part--add-on__background-image-container"},[_c('img',{staticClass:"product-item__right-part--add-on__background-image img-responsive img-fluid",attrs:{"src":__webpack_require__(21)}})]),_vm._v(" "),_c('div',{staticClass:"product-item__right-part--add-on__product-image-container"},[_c('img',{staticClass:"product-item__right-part--add-on__product-image img-responsive img-fluid",attrs:{"src":__webpack_require__(49)}})]),_vm._v(" "),_c('p',{staticClass:"product-item__right-part--add-on-text"},[_vm._v("\n              Top up your veggie twist with some spring onions for the\n              freshness and crunch\n            ")])])])]),_vm._v(" "),_c('div',{staticClass:"product-item"},[_c('div',{staticClass:"product-item__left-part"},[_c('img',{staticClass:"product-image",attrs:{"src":__webpack_require__(35)}})]),_vm._v(" "),_c('div',{staticClass:"product-item__right-part"},[_c('h2',{staticClass:"product-item__right-part--heading"},[_vm._v("Masala Coriander")]),_vm._v(" "),_c('p',{staticClass:"product-item__right-part--description"},[_vm._v("\n            Popular in the south, Masala Coriander is a flavourful blend of\n            tempting well-loved spices of South and aromatic coriander.\n          ")]),_vm._v(" "),_c('div',{staticClass:"product-image__mobile-container"},[_c('img',{staticClass:"product-image product-image-mobile",attrs:{"src":__webpack_require__(35)}})]),_vm._v(" "),_c('div',{staticClass:"product-item__right-part--add-on"},[_c('p',{staticClass:"product-item__right-part--add-on__top-text"},[_vm._v("Add On")]),_vm._v(" "),_c('div',{staticClass:"product-item__right-part--add-on__background-image-container"},[_c('img',{staticClass:"product-item__right-part--add-on__background-image img-responsive img-fluid",attrs:{"src":__webpack_require__(21)}})]),_vm._v(" "),_c('div',{staticClass:"product-item__right-part--add-on__product-image-container"},[_c('img',{staticClass:"product-item__right-part--add-on__product-image img-responsive img-fluid",attrs:{"src":__webpack_require__(50)}})]),_vm._v(" "),_c('p',{staticClass:"product-item__right-part--add-on-text"},[_vm._v("\n              Top it up with drizzle of ghee & some gun powder\n            ")])])])]),_vm._v(" "),_c('div',{staticClass:"product-item"},[_c('div',{staticClass:"product-item__left-part"},[_c('img',{staticClass:"product-image product-image__flavours-of-south",attrs:{"src":__webpack_require__(36)}})]),_vm._v(" "),_c('div',{staticClass:"product-item__right-part"},[_c('h2',{staticClass:"product-item__right-part--heading"},[_vm._v("Flavours of South")]),_vm._v(" "),_c('p',{staticClass:"product-item__right-part--description"},[_vm._v("\n            The magic of well-loved spices of south in three delicious south\n            flavours that would leave everyone craving for more! Be it\n            aromatic Sambar or fiery Chettinad or hot Curry Pepper, these\n            flavours make for delightful warm family snacks that are too hot\n            to handle - Mind it!\n          ")]),_vm._v(" "),_c('div',{staticClass:"product-image__mobile-container"},[_c('img',{staticClass:"product-image product-image-mobile",attrs:{"src":__webpack_require__(36)}})]),_vm._v(" "),_c('div',{staticClass:"product-item__right-part--add-on product-item__right-part--add-on__flavours-of-south"},[_c('p',{staticClass:"product-item__right-part--add-on__top-text"},[_vm._v("Add On")]),_vm._v(" "),_c('div',{staticClass:"product-item__right-part--add-on__background-image-container"},[_c('img',{staticClass:"product-item__right-part--add-on__background-image img-responsive img-fluid",attrs:{"src":__webpack_require__(21)}})]),_vm._v(" "),_c('div',{staticClass:"product-item__right-part--add-on__product-image-container"},[_c('img',{staticClass:"product-item__right-part--add-on__product-image img-responsive img-fluid",attrs:{"src":__webpack_require__(51)}})]),_vm._v(" "),_c('p',{staticClass:"product-item__right-part--add-on-text"},[_vm._v("\n              Top it up with your favourite nuts!\n            ")])])])]),_vm._v(" "),_c('div',{staticClass:"product-item"},[_c('div',{staticClass:"product-item__left-part"},[_c('img',{staticClass:"product-image",attrs:{"src":__webpack_require__(37)}})]),_vm._v(" "),_c('div',{staticClass:"product-item__right-part"},[_c('h2',{staticClass:"product-item__right-part--heading"},[_vm._v("Saffola Oats")]),_vm._v(" "),_c('p',{staticClass:"product-item__right-part--description"},[_vm._v("\n            The heart wants what it wants, so why hold back! Have it as a hot\n            bowl of Oats or as a cold yummy dessert, or as a healthy add-on to\n            your exiting sweet and savoury delights.\n          ")]),_vm._v(" "),_c('div',{staticClass:"product-image__mobile-container"},[_c('img',{staticClass:"product-image product-image-mobile",attrs:{"src":__webpack_require__(37)}})]),_vm._v(" "),_c('div',{staticClass:"product-item__right-part--add-on"},[_c('p',{staticClass:"product-item__right-part--add-on__top-text"},[_vm._v("Add On")]),_vm._v(" "),_c('div',{staticClass:"product-item__right-part--add-on__background-image-container"},[_c('img',{staticClass:"product-item__right-part--add-on__background-image img-responsive img-fluid",attrs:{"src":__webpack_require__(21)}})]),_vm._v(" "),_c('div',{staticClass:"product-item__right-part--add-on__product-image-container"},[_c('img',{staticClass:"product-item__right-part--add-on__product-image img-responsive img-fluid",attrs:{"src":__webpack_require__(52)}})]),_vm._v(" "),_c('p',{staticClass:"product-item__right-part--add-on-text"},[_vm._v("\n              Drizzle some honey or maple syrup and top it off with chocolate\n              chips, fresh berries, raisins, or nuts!\n            ")])])])])]),_vm._ssrNode(" "),_c('Slick',{staticClass:"products-carousel",attrs:{"id":"productCards","options":_vm.productCardsSettings}},[_c('div',{staticClass:"product-card"},[_c('div',{staticClass:"product-card__content-container"},[_c('div',{staticClass:"product-card--image"},[_c('img',{attrs:{"src":__webpack_require__(53)}})]),_vm._v(" "),_c('div',{staticClass:"product-card--text"},[_c('p',[_vm._v("Classic Masala")])])])]),_vm._v(" "),_c('div',{staticClass:"product-card"},[_c('div',{staticClass:"product-card__content-container"},[_c('div',{staticClass:"product-card--image"},[_c('img',{attrs:{"src":__webpack_require__(54)}})]),_vm._v(" "),_c('div',{staticClass:"product-card--text"},[_c('p',[_vm._v("Peppy Tomato")])])])]),_vm._v(" "),_c('div',{staticClass:"product-card"},[_c('div',{staticClass:"product-card__content-container"},[_c('div',{staticClass:"product-card--image"},[_c('img',{attrs:{"src":__webpack_require__(55)}})]),_vm._v(" "),_c('div',{staticClass:"product-card--text"},[_c('p',[_vm._v("Veggie Twist")])])])]),_vm._v(" "),_c('div',{staticClass:"product-card"},[_c('div',{staticClass:"product-card__content-container"},[_c('div',{staticClass:"product-card--image"},[_c('img',{attrs:{"src":__webpack_require__(56)}})]),_vm._v(" "),_c('div',{staticClass:"product-card--text"},[_c('p',[_vm._v("Masala Coriander")])])])]),_vm._v(" "),_c('div',{staticClass:"product-card"},[_c('div',{staticClass:"product-card__content-container"},[_c('div',{staticClass:"product-card--image"},[_c('img',{attrs:{"src":__webpack_require__(57)}})]),_vm._v(" "),_c('div',{staticClass:"product-card--text"},[_c('p',[_vm._v("Flavours of South")])])])]),_vm._v(" "),_c('div',{staticClass:"product-card"},[_c('div',{staticClass:"product-card__content-container"},[_c('div',{staticClass:"product-card--image"},[_c('img',{attrs:{"src":__webpack_require__(58)}})]),_vm._v(" "),_c('div',{staticClass:"product-card--text"},[_c('p',[_vm._v("Saffola Oats")])])])])])],2),_vm._ssrNode(" <section id=\"features\" class=\"features\"><div class=\"features__container\"><div class=\"features__left-part\"><h2 class=\"features__heading\">Delicious and healthy too!</h2> <div class=\"features__left-part--icons-container\"><div class=\"features__column\"><div class=\"feature__item\"><div class=\"feature__item--image\"><img"+(_vm._ssrAttr("src",__webpack_require__(59)))+" class=\"feature-image img-responsive img-fluid\"> <h4 class=\"feature-text\">100%<br>wholegrain oats</h4></div></div> <div class=\"feature__item\"><div class=\"feature__item--image\"><img"+(_vm._ssrAttr("src",__webpack_require__(60)))+" class=\"feature-image img-responsive img-fluid\"> <h4 class=\"feature-text\">100%<br>wholegrain oats</h4></div></div></div> <div class=\"features__column\"><div class=\"feature__item\"><div class=\"feature__item--image\"><img"+(_vm._ssrAttr("src",__webpack_require__(61)))+" class=\"feature-image img-responsive img-fluid\"> <h4 class=\"feature-text\">Real<br>Vegetables*</h4></div></div> <div class=\"feature__item\"><div class=\"feature__item--image\"><img"+(_vm._ssrAttr("src",__webpack_require__(62)))+" class=\"feature-image img-responsive img-fluid\"> <h4 class=\"feature-text\">Upto 70%<br>less fat***</h4></div></div></div> <div class=\"features__column\"><div class=\"feature__item\"><div class=\"feature__item--image\"><img"+(_vm._ssrAttr("src",__webpack_require__(63)))+" class=\"feature-image img-responsive img-fluid\"> <h4 class=\"feature-text\">No added<br>preservatives</h4></div></div> <div class=\"feature__item\"><div class=\"feature__item--image\"><img"+(_vm._ssrAttr("src",__webpack_require__(64)))+" class=\"feature-image img-responsive img-fluid\"> <h4 class=\"feature-text\">Ready in<br>3 minutes</h4></div></div></div></div> <div class=\"disclaimer-container\"><h6 class=\"features__disclaimer-text\">\n            *Vegetables are dehydrated to maintain its goodness and taste.\n          </h6> <h6 class=\"features__disclaimer-text\">\n            **Oats have beta- glucan fiber that keeps you fuller for longer\n          </h6> <h6 class=\"features__disclaimer-text\">\n            ***Study dated 31/08/17 based on declared nutrient information of\n            instant noodles vs Saffola Masala Oats.\n          </h6></div></div> <div class=\"features__right-part\"><picture><source"+(_vm._ssrAttr("srcset",__webpack_require__(65)))+" media=\"(max-width: 600px)\" class=\"img-responsve img-fluid\"> <source"+(_vm._ssrAttr("srcset",__webpack_require__(66)))+" media=\"(max-width: 992px)\" class=\"img-reponsive img-fluid\"> <img"+(_vm._ssrAttr("src",__webpack_require__(67)))+" class=\"img-reponsive img-fluid features__right-part--image\"></picture></div></div></section> <section id=\"steps\" class=\"steps\"><h2 class=\"steps__heading\">Easy to cook, easy to serve!</h2> <div class=\"steps__container\"><div class=\"step\"><div class=\"step--image\"><picture><source"+(_vm._ssrAttr("srcset",__webpack_require__(68)))+" media=\"(max-width: 767px)\"> <img"+(_vm._ssrAttr("src",__webpack_require__(69)))+"></picture></div> <p class=\"step--text\">\n          For every cup of Saffola Oats, add 1 ½ cups of water in a pan\n        </p></div> <div class=\"arrow\"><picture><source"+(_vm._ssrAttr("srcset",__webpack_require__(70)))+" media=\"(max-width: 600px)\"> <img"+(_vm._ssrAttr("src",__webpack_require__(71)))+" class=\"arrow__image\"></picture></div> <div class=\"step\"><div class=\"step--image\"><picture><source"+(_vm._ssrAttr("srcset",__webpack_require__(72)))+" media=\"(max-width: 767px)\"> <img"+(_vm._ssrAttr("src",__webpack_require__(73)))+"></picture></div> <p class=\"step--text\">\n          Cook on medium flame for 3 minutes or microwave for 3 minutes on\n          full power. Stir occasionally\n        </p></div> <div class=\"arrow\"><picture><source"+(_vm._ssrAttr("srcset",__webpack_require__(74)))+" media=\"(max-width: 600px)\"> <img"+(_vm._ssrAttr("src",__webpack_require__(75)))+" class=\"arrow__image\"></picture></div> <div class=\"step\"><div class=\"step--image\"><picture><source"+(_vm._ssrAttr("srcset",__webpack_require__(76)))+" media=\"(max-width: 767px)\"> <img"+(_vm._ssrAttr("src",__webpack_require__(77)))+"></picture></div> <p class=\"step--text\">\n          Serve hot to enjoy the distinct flavours. Garnish with veggies,\n          herbs and choice of toppings.\n        </p></div></div></section> <div class=\"section-divider--bottom\"></div> "),_vm._ssrNode("<section id=\"recipes\" class=\"recipes\">","</section>",[_vm._ssrNode("<h2 class=\"recipes__heading\">Steaming Yummy Recipes with Saffola Oats</h2> <ul id=\"cuisines\" role=\"tablist\" class=\"nav\"><li class=\"nav-item\"><a id=\"indian-tab\" data-toggle=\"tab\" href=\"#indian\" role=\"tab\" aria-controls=\"indian\" aria-selected=\"true\" class=\"nav-link active recipes__cuisines\">Indian</a></li> <li class=\"nav-item\"><a id=\"italian-tab\" data-toggle=\"tab\" href=\"#italian\" role=\"tab\" aria-controls=\"italian\" aria-selected=\"false\" class=\"nav-link recipes__cuisines\">Italian/Chinese</a></li> <li class=\"nav-item\"><a id=\"continental-tab\" data-toggle=\"tab\" href=\"#continental\" role=\"tab\" aria-controls=\"contitnental\" aria-selected=\"false\" class=\"nav-link recipes__cuisines\">Continental</a></li> <li class=\"nav-item\"><a id=\"more-tab\" href=\"http://fitfoodie.in/\" target=\"_blank\" class=\"nav-link recipes__cuisines\">More Recipes\n          <span><img"+(_vm._ssrAttr("src",__webpack_require__(78)))+"></span></a></li></ul> "),_vm._ssrNode("<div id=\"recipes-tabs\" class=\"tab-content\">","</div>",[_vm._ssrNode("<div id=\"indian\" role=\"tabpanel\" aria-labelledby=\"indian-tab\" class=\"tab-pane fade show active\">","</div>",[_c('client-only',[_c('VueSlickCarousel',_vm._b({staticClass:"recipes-carousel"},'VueSlickCarousel',_vm.recipesSettings,false),_vm._l((_vm.indianRecipes),function(recipe){return _c('div',{key:recipe.id,staticClass:"recipe"},[_c('div',{staticClass:"recipe-container"},[_c('div',{staticClass:"recipe__image-container"},[_c('img',{attrs:{"src":__webpack_require__(79)("./" + (recipe.recipeImage) + ".png")}})]),_vm._v(" "),_c('div',{staticClass:"recipe__text-container"},[_c('h3',{staticClass:"recipe--title"},[_vm._v("\n                    "+_vm._s(recipe.title)+"\n                  ")]),_vm._v(" "),_c('div',{staticClass:"recipe__details-container"},[_c('div',{staticClass:"recipe__serving"},[_c('img',{staticClass:"recipe__serving--image",attrs:{"src":__webpack_require__(23)}}),_vm._v(" "),_c('p',{staticClass:"recipe__serving--text"},[_vm._v("\n                        "+_vm._s(recipe.serving)+"\n                      ")])]),_vm._v(" "),_c('div',{staticClass:"recipe__cooking-time"},[_c('img',{staticClass:"recipe__cooking-time--image",attrs:{"src":__webpack_require__(24)}}),_vm._v(" "),_c('p',{staticClass:"recipe__cooking-time--text"},[_vm._v("\n                        "+_vm._s(recipe.cookingTime)+"\n                      ")])])])]),_vm._v(" "),_c('div',{staticClass:"recipe-open__image-container",on:{"click":function($event){return _vm.activateRecipe(recipe.id)}}},[_c('img',{staticClass:"recipe__open-image img-responsive img-fluid",attrs:{"src":__webpack_require__(25)}})]),_vm._v(" "),_c('div',{staticClass:"recipe__method-container",class:_vm.addRecipeActiveClass(recipe.id)},[_c('h5',{staticClass:"recipe__method--heading"},[_vm._v("Ingredients:")]),_vm._v(" "),_vm._l((recipe.recipeIngredients),function(ingredients){return _c('p',{key:ingredients,staticClass:"recipe__method--sub-text"},[_vm._v("\n                    "+_vm._s(ingredients)+"\n                  ")])}),_vm._v(" "),_c('h5',{staticClass:"recipe__method--heading"},[_vm._v("Method:")]),_vm._v(" "),_vm._l((recipe.recipeMethods),function(methods){return _c('p',{key:methods,staticClass:"recipe__method--sub-text"},[_vm._v("\n                    "+_vm._s(methods)+"\n                  ")])}),_vm._v(" "),_c('div',{staticClass:"recipe-close__image-container",on:{"click":function($event){return _vm.deactivateRecipe(recipe.id)}}},[_c('img',{staticClass:"recipe__close-image img-responsive img-fluid",attrs:{"src":__webpack_require__(26)}})])],2)])])}),0)],1)],1),_vm._ssrNode(" "),_vm._ssrNode("<div id=\"italian\" role=\"tabpanel\" aria-labelledby=\"italian-tab\" class=\"tab-pane fade\">","</div>",[_c('client-only',[_c('VueSlickCarousel',_vm._b({staticClass:"recipes-carousel"},'VueSlickCarousel',_vm.recipesSettings,false),_vm._l((_vm.italianRecipes),function(recipe){return _c('div',{key:recipe.id,staticClass:"recipe"},[_c('div',{staticClass:"recipe-container"},[_c('div',{staticClass:"recipe__image-container"},[_c('img',{attrs:{"src":__webpack_require__(84)("./" + (recipe.recipeImage) + ".png")}})]),_vm._v(" "),_c('div',{staticClass:"recipe__text-container"},[_c('h3',{staticClass:"recipe--title"},[_vm._v("\n                    "+_vm._s(recipe.title)+"\n                  ")]),_vm._v(" "),_c('div',{staticClass:"recipe__details-container"},[_c('div',{staticClass:"recipe__serving"},[_c('img',{staticClass:"recipe__serving--image",attrs:{"src":__webpack_require__(23)}}),_vm._v(" "),_c('p',{staticClass:"recipe__serving--text"},[_vm._v("\n                        "+_vm._s(recipe.serving)+"\n                      ")])]),_vm._v(" "),_c('div',{staticClass:"recipe__cooking-time"},[_c('img',{staticClass:"recipe__cooking-time--image",attrs:{"src":__webpack_require__(24)}}),_vm._v(" "),_c('p',{staticClass:"recipe__cooking-time--text"},[_vm._v("\n                        "+_vm._s(recipe.cookingTime)+"\n                      ")])])])]),_vm._v(" "),_c('div',{staticClass:"recipe-open__image-container",on:{"click":function($event){return _vm.activateRecipe(recipe.id)}}},[_c('img',{staticClass:"recipe__open-image img-responsive img-fluid",attrs:{"src":__webpack_require__(25)}})]),_vm._v(" "),_c('div',{staticClass:"recipe__method-container",class:_vm.addRecipeActiveClass(recipe.id)},[_c('h5',{staticClass:"recipe__method--heading"},[_vm._v("Ingredients:")]),_vm._v(" "),_vm._l((recipe.recipeIngredients),function(ingredients){return _c('p',{key:ingredients,staticClass:"recipe__method--sub-text"},[_vm._v("\n                    "+_vm._s(ingredients)+"\n                  ")])}),_vm._v(" "),_c('h5',{staticClass:"recipe__method--heading"},[_vm._v("Method:")]),_vm._v(" "),_vm._l((recipe.recipeMethods),function(methods){return _c('p',{key:methods,staticClass:"recipe__method--sub-text"},[_vm._v("\n                    "+_vm._s(methods)+"\n                  ")])}),_vm._v(" "),_c('div',{staticClass:"recipe-close__image-container",on:{"click":function($event){return _vm.deactivateRecipe(recipe.id)}}},[_c('img',{staticClass:"recipe__close-image img-responsive img-fluid",attrs:{"src":__webpack_require__(26)}})])],2)])])}),0)],1)],1),_vm._ssrNode(" "),_vm._ssrNode("<div id=\"continental\" role=\"tabpanel\" aria-labelledby=\"continental-tab\" class=\"tab-pane fade\">","</div>",[_c('client-only',[_c('VueSlickCarousel',_vm._b({staticClass:"recipes-carousel"},'VueSlickCarousel',_vm.recipesSettings,false),_vm._l((_vm.continentalRecipes),function(recipe){return _c('div',{key:recipe.id,staticClass:"recipe"},[_c('div',{staticClass:"recipe-container"},[_c('div',{staticClass:"recipe__image-container"},[_c('img',{attrs:{"src":__webpack_require__(89)("./" + (recipe.recipeImage) + ".png")}})]),_vm._v(" "),_c('div',{staticClass:"recipe__text-container"},[_c('h3',{staticClass:"recipe--title"},[_vm._v("\n                    "+_vm._s(recipe.title)+"\n                  ")]),_vm._v(" "),_c('div',{staticClass:"recipe__details-container"},[_c('div',{staticClass:"recipe__serving"},[_c('img',{staticClass:"recipe__serving--image",attrs:{"src":__webpack_require__(23)}}),_vm._v(" "),_c('p',{staticClass:"recipe__serving--text"},[_vm._v("\n                        "+_vm._s(recipe.serving)+"\n                      ")])]),_vm._v(" "),_c('div',{staticClass:"recipe__cooking-time"},[_c('img',{staticClass:"recipe__cooking-time--image",attrs:{"src":__webpack_require__(24)}}),_vm._v(" "),_c('p',{staticClass:"recipe__cooking-time--text"},[_vm._v("\n                        "+_vm._s(recipe.cookingTime)+"\n                      ")])])])]),_vm._v(" "),_c('div',{staticClass:"recipe-open__image-container",on:{"click":function($event){return _vm.activateRecipe(recipe.id)}}},[_c('img',{staticClass:"recipe__open-image img-responsive img-fluid",attrs:{"src":__webpack_require__(25)}})]),_vm._v(" "),_c('div',{staticClass:"recipe__method-container",class:_vm.addRecipeActiveClass(recipe.id)},[_c('h5',{staticClass:"recipe__method--heading"},[_vm._v("Ingredients:")]),_vm._v(" "),_vm._l((recipe.recipeIngredients),function(ingredients){return _c('p',{key:ingredients,staticClass:"recipe__method--sub-text"},[_vm._v("\n                    "+_vm._s(ingredients)+"\n                  ")])}),_vm._v(" "),_c('h5',{staticClass:"recipe__method--heading"},[_vm._v("Method:")]),_vm._v(" "),_vm._l((recipe.recipeMethods),function(methods){return _c('p',{key:methods,staticClass:"recipe__method--sub-text"},[_vm._v("\n                    "+_vm._s(methods)+"\n                  ")])}),_vm._v(" "),_c('div',{staticClass:"recipe-close__image-container",on:{"click":function($event){return _vm.deactivateRecipe(recipe.id)}}},[_c('img',{staticClass:"recipe__close-image img-responsive img-fluid",attrs:{"src":__webpack_require__(26)}})])],2)])])}),0)],1)],1)],2)],2),_vm._ssrNode(" "),_vm._ssrNode("<section id=\"testimonials\" class=\"testimonials\">","</section>",[_vm._ssrNode("<h2 class=\"testimonials__heading\">From one foodie to another</h2> "),_c('VueSlickCarousel',_vm._b({staticClass:"testimonial-carousel"},'VueSlickCarousel',_vm.testimonialsSettings,false),[_c('div',{staticClass:"testimonial"},[_c('div',{staticClass:"testimonail__image-container"},[_c('img',{staticClass:"testimonial__image",attrs:{"src":__webpack_require__(22)}})]),_vm._v(" "),_c('div',{staticClass:"testimonial__text"},[_c('p',{staticClass:"testimonial__text--main"},[_vm._v("\n            Saffola Masala Oats is a good option to increase the fiber content\n            in your food and minimize carbohydrates in your diet.\n          ")]),_vm._v(" "),_c('hr',{staticClass:"testimonial__horizontal-line"}),_vm._v(" "),_c('h4',{staticClass:"testimonial__author--name"},[_vm._v("Jane Doe")]),_vm._v(" "),_c('h6',{staticClass:"testimonial__author--designation"},[_vm._v("Student")])])]),_vm._v(" "),_c('div',{staticClass:"testimonial"},[_c('div',{staticClass:"testimonail__image-container"},[_c('img',{staticClass:"testimonial__image",attrs:{"src":__webpack_require__(22)}})]),_vm._v(" "),_c('div',{staticClass:"testimonial__text"},[_c('p',{staticClass:"testimonial__text--main"},[_vm._v("\n            Saffola Masala Oats is a good option to increase the fiber content\n            in your food and minimize carbohydrates in your diet.\n          ")]),_vm._v(" "),_c('hr',{staticClass:"testimonial__horizontal-line"}),_vm._v(" "),_c('h4',{staticClass:"testimonial__author--name"},[_vm._v("Jane Doe")]),_vm._v(" "),_c('h6',{staticClass:"testimonial__author--designation"},[_vm._v("Student")])])]),_vm._v(" "),_c('div',{staticClass:"testimonial"},[_c('div',{staticClass:"testimonail__image-container"},[_c('img',{staticClass:"testimonial__image",attrs:{"src":__webpack_require__(22)}})]),_vm._v(" "),_c('div',{staticClass:"testimonial__text"},[_c('p',{staticClass:"testimonial__text--main"},[_vm._v("\n            Saffola Masala Oats is a good option to increase the fiber content\n            in your food and minimize carbohydrates in your diet.\n          ")]),_vm._v(" "),_c('hr',{staticClass:"testimonial__horizontal-line"}),_vm._v(" "),_c('h4',{staticClass:"testimonial__author--name"},[_vm._v("Jane Doe")]),_vm._v(" "),_c('h6',{staticClass:"testimonial__author--designation"},[_vm._v("Student")])])]),_vm._v(" "),_c('div',{staticClass:"testimonial"},[_c('div',{staticClass:"testimonail__image-container"},[_c('img',{staticClass:"testimonial__image",attrs:{"src":__webpack_require__(22)}})]),_vm._v(" "),_c('div',{staticClass:"testimonial__text"},[_c('p',{staticClass:"testimonial__text--main"},[_vm._v("\n            Saffola Masala Oats is a good option to increase the fiber content\n            in your food and minimize carbohydrates in your diet.\n          ")]),_vm._v(" "),_c('hr',{staticClass:"testimonial__horizontal-line"}),_vm._v(" "),_c('h4',{staticClass:"testimonial__author--name"},[_vm._v("Jane Doe")]),_vm._v(" "),_c('h6',{staticClass:"testimonial__author--designation"},[_vm._v("Student")])])])])],2),_vm._ssrNode(" <footer class=\"footer\"><div class=\"social-media-container\"><div class=\"social-media__left-part\"><h2 class=\"social-media__left-part--white\">Follow us</h2> <h2 class=\"social-media__left-part--yellow\">@saffolafitfoodie</h2></div> <div class=\"social-media__right-part\"><span class=\"social-media-icons\"><img"+(_vm._ssrAttr("src",__webpack_require__(94)))+"></span> <span class=\"social-media-icons\"><img"+(_vm._ssrAttr("src",__webpack_require__(95)))+"></span> <span class=\"social-media-icons\"><img"+(_vm._ssrAttr("src",__webpack_require__(96)))+"></span></div></div> <div class=\"instagram-feed\"><h2>Instagram feed</h2></div> <div class=\"footer-bottom-container\"><div class=\"footer-bottom__left-part\"><div class=\"footer-bottom__left-part--mail\"><span class=\"footer-bottom__left-part--mail-image\"><img"+(_vm._ssrAttr("src",__webpack_require__(97)))+"></span> <span class=\"footer-bottom__left-part--mail-text\">\n            csc@marico.com\n          </span></div> <div class=\"footer-bottom__left-part--phone\"><span class=\"footer-bottom__left-part--phone-image\"><img"+(_vm._ssrAttr("src",__webpack_require__(98)))+"></span> <span class=\"footer-bottom__left-part--phone-image\">1800 - 2345 - 3445</span></div></div> <div class=\"footer-bottom__right-part\"><div class=\"footer-bottom__right-part--text\">\n          Terms &amp; Conditions  |  Privacy Policy\n           |  © 2021 Saffola. All Rights Reserved\n        </div></div></div></footer>")],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=9d1fd02a&
+// CONCATENATED MODULE: ./pages/index.vue?vue&type=template&id=2fe60b4e&
 
 // EXTERNAL MODULE: external "vue-slick-carousel"
 var external_vue_slick_carousel_ = __webpack_require__(19);
 var external_vue_slick_carousel_default = /*#__PURE__*/__webpack_require__.n(external_vue_slick_carousel_);
 
+// EXTERNAL MODULE: external "vue-slick"
+var external_vue_slick_ = __webpack_require__(20);
+var external_vue_slick_default = /*#__PURE__*/__webpack_require__.n(external_vue_slick_);
+
+// EXTERNAL MODULE: ./node_modules/slick-carousel/slick/slick.css
+var slick = __webpack_require__(99);
+
+// EXTERNAL MODULE: ./node_modules/slick-carousel/slick/slick-theme.css
+var slick_theme = __webpack_require__(100);
+
 // EXTERNAL MODULE: ./node_modules/vue-slick-carousel/dist/vue-slick-carousel.css
-var vue_slick_carousel = __webpack_require__(69);
+var vue_slick_carousel = __webpack_require__(101);
 
 // EXTERNAL MODULE: ./node_modules/vue-slick-carousel/dist/vue-slick-carousel-theme.css
-var vue_slick_carousel_theme = __webpack_require__(70);
+var vue_slick_carousel_theme = __webpack_require__(102);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/index.vue?vue&type=script&lang=js&
 //
@@ -1578,9 +1832,17 @@ var vue_slick_carousel_theme = __webpack_require__(70);
 //
 //
 //
- // import Slick from "vue-slick";
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
+//
+//
+//
+//
+//
+//
+//
+//
+
+
+
 
 
 
@@ -1877,8 +2139,8 @@ var vue_slick_carousel_theme = __webpack_require__(70);
   },
 
   components: {
-    VueSlickCarousel: external_vue_slick_carousel_default.a //Slick,
-
+    VueSlickCarousel: external_vue_slick_carousel_default.a,
+    Slick: external_vue_slick_default.a
   },
 
   beforeMount() {
@@ -1937,7 +2199,7 @@ var componentNormalizer = __webpack_require__(2);
 
 function injectStyles (context) {
   
-  var style0 = __webpack_require__(71)
+  var style0 = __webpack_require__(103)
 if (style0.__inject__) style0.__inject__(context)
 
 }
