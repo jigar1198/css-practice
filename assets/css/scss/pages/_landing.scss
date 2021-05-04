@@ -575,7 +575,6 @@
 
 .recipes {
   background-color: $color-golden-yellow;
-  padding: 4rem 2rem;
 
   @media (min-width: 600px) {
     padding: 4rem 4rem;
@@ -594,8 +593,8 @@
     right: 0;
     margin: 0 auto;
     padding-bottom: 3rem;
+    justify-content: center;
     @media (min-width: 500px) {
-      justify-content: center;
       overflow-x: hidden;
     }
     @media (min-width: 992px) {
@@ -604,6 +603,10 @@
   }
 
   .recipes-carousel {
+    @media (max-width: 600px) {
+      padding: 0 1rem;
+    }
+
     .slick-dots {
       bottom: -15px;
       height: 4px;
