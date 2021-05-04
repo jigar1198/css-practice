@@ -253,7 +253,7 @@
       </VueSlickCarousel>
     </section>
     <section class="products" id="products">
-      <Slick id="productItems" :options="productItemsSettings">
+      <!-- <Slick id="productItems" :options="productItemsSettings">
         <div class="product-item">
           <div class="product-item__left-part">
             <img
@@ -590,7 +590,7 @@
             </div>
           </div>
         </div>
-      </Slick>
+      </Slick> -->
     </section>
     <section class="features" id="features">
       <div class="features__container">
@@ -816,85 +816,89 @@
           role="tabpanel"
           aria-labelledby="indian-tab"
         >
-          <VueSlickCarousel v-bind="recipesSettings" class="recipes-carousel">
-            <div
-              v-for="recipe in indianRecipes"
-              class="recipe"
-              :key="recipe.id"
-            >
-              <div class="recipe-container">
-                <div class="recipe__image-container">
-                  <img
-                    :src="
-                      require(`~/assets/images/recipes/indian/${recipe.recipeImage}.png`)
-                    "
-                  />
-                </div>
-                <div class="recipe__text-container">
-                  <h3 class="recipe--title">
-                    {{ recipe.title }}
-                  </h3>
-                  <div class="recipe__details-container">
-                    <div class="recipe__serving">
-                      <img
-                        src="~/assets/images/recipes/food.svg"
-                        class="recipe__serving--image"
-                      />
-                      <p class="recipe__serving--text">{{ recipe.serving }}</p>
-                    </div>
-                    <div class="recipe__cooking-time">
-                      <img
-                        src="~/assets/images/recipes/chronometer.svg"
-                        class="recipe__cooking-time--image"
-                      />
-                      <p class="recipe__cooking-time--text">
-                        {{ recipe.cookingTime }}
-                      </p>
+          <client-only>
+            <VueSlickCarousel v-bind="recipesSettings" class="recipes-carousel">
+              <div
+                v-for="recipe in indianRecipes"
+                class="recipe"
+                :key="recipe.id"
+              >
+                <div class="recipe-container">
+                  <div class="recipe__image-container">
+                    <img
+                      :src="
+                        require(`~/assets/images/recipes/indian/${recipe.recipeImage}.png`)
+                      "
+                    />
+                  </div>
+                  <div class="recipe__text-container">
+                    <h3 class="recipe--title">
+                      {{ recipe.title }}
+                    </h3>
+                    <div class="recipe__details-container">
+                      <div class="recipe__serving">
+                        <img
+                          src="~/assets/images/recipes/food.svg"
+                          class="recipe__serving--image"
+                        />
+                        <p class="recipe__serving--text">
+                          {{ recipe.serving }}
+                        </p>
+                      </div>
+                      <div class="recipe__cooking-time">
+                        <img
+                          src="~/assets/images/recipes/chronometer.svg"
+                          class="recipe__cooking-time--image"
+                        />
+                        <p class="recipe__cooking-time--text">
+                          {{ recipe.cookingTime }}
+                        </p>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div
-                  class="recipe-open__image-container"
-                  @click="activateRecipe(recipe.id)"
-                >
-                  <img
-                    src="~/assets/images/recipes/up-arrow.svg"
-                    class="recipe__open-image img-responsive img-fluid"
-                  />
-                </div>
-                <div
-                  class="recipe__method-container"
-                  :class="addRecipeActiveClass(recipe.id)"
-                >
-                  <h5 class="recipe__method--heading">Ingredients:</h5>
-                  <p
-                    class="recipe__method--sub-text"
-                    v-for="ingredients in recipe.recipeIngredients"
-                    :key="ingredients"
-                  >
-                    {{ ingredients }}
-                  </p>
-                  <h5 class="recipe__method--heading">Method:</h5>
-                  <p
-                    class="recipe__method--sub-text"
-                    v-for="methods in recipe.recipeMethods"
-                    :key="methods"
-                  >
-                    {{ methods }}
-                  </p>
                   <div
-                    class="recipe-close__image-container"
-                    @click="deactivateRecipe(recipe.id)"
+                    class="recipe-open__image-container"
+                    @click="activateRecipe(recipe.id)"
                   >
                     <img
-                      src="~/assets/images/recipes/close.svg"
-                      class="recipe__close-image img-responsive img-fluid"
+                      src="~/assets/images/recipes/up-arrow.svg"
+                      class="recipe__open-image img-responsive img-fluid"
                     />
+                  </div>
+                  <div
+                    class="recipe__method-container"
+                    :class="addRecipeActiveClass(recipe.id)"
+                  >
+                    <h5 class="recipe__method--heading">Ingredients:</h5>
+                    <p
+                      class="recipe__method--sub-text"
+                      v-for="ingredients in recipe.recipeIngredients"
+                      :key="ingredients"
+                    >
+                      {{ ingredients }}
+                    </p>
+                    <h5 class="recipe__method--heading">Method:</h5>
+                    <p
+                      class="recipe__method--sub-text"
+                      v-for="methods in recipe.recipeMethods"
+                      :key="methods"
+                    >
+                      {{ methods }}
+                    </p>
+                    <div
+                      class="recipe-close__image-container"
+                      @click="deactivateRecipe(recipe.id)"
+                    >
+                      <img
+                        src="~/assets/images/recipes/close.svg"
+                        class="recipe__close-image img-responsive img-fluid"
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          </VueSlickCarousel>
+            </VueSlickCarousel>
+          </client-only>
         </div>
         <div
           class="tab-pane fade"
@@ -902,7 +906,7 @@
           role="tabpanel"
           aria-labelledby="italian-tab"
         >
-          <VueSlickCarousel v-bind="recipesSettings" class="recipes-carousel">
+          <!-- <VueSlickCarousel v-bind="recipesSettings" class="recipes-carousel">
             <div
               v-for="recipe in italianRecipes"
               class="recipe"
@@ -980,7 +984,7 @@
                 </div>
               </div>
             </div>
-          </VueSlickCarousel>
+          </VueSlickCarousel> -->
         </div>
         <div
           class="tab-pane fade"
@@ -988,7 +992,7 @@
           role="tabpanel"
           aria-labelledby="continental-tab"
         >
-          <VueSlickCarousel v-bind="recipesSettings" class="recipes-carousel">
+          <!-- <VueSlickCarousel v-bind="recipesSettings" class="recipes-carousel">
             <div
               v-for="recipe in continentalRecipes"
               class="recipe"
@@ -1066,7 +1070,7 @@
                 </div>
               </div>
             </div>
-          </VueSlickCarousel>
+          </VueSlickCarousel> -->
         </div>
       </div>
     </section>
@@ -1199,9 +1203,9 @@
 
 <script>
 import VueSlickCarousel from "vue-slick-carousel";
-import Slick from "vue-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import Slick from "vue-slick";
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 import "vue-slick-carousel/dist/vue-slick-carousel.css";
 import "vue-slick-carousel/dist/vue-slick-carousel-theme.css";
 export default {
@@ -1701,7 +1705,7 @@ export default {
   },
   components: {
     VueSlickCarousel,
-    Slick,
+    //Slick,
   },
   beforeMount() {
     window.addEventListener("scroll", this.handleScroll);
