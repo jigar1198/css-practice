@@ -51,6 +51,16 @@
 
   @media (max-width: 767px) {
     height: 250px;
+    width: 500px;
+  }
+
+  @media (max-width: 600px) {
+    height: 220px;
+    width: 440px;
+  }
+
+  @media (max-width: 340px) {
+    height: 175px;
     width: 600px;
   }
 
@@ -180,7 +190,7 @@
   align-items: center;
   justify-content: center;
   @media (max-width: 400px) {
-    flex: 0 0 40%;
+    flex: 0 0 45%;
     align-items: flex-end;
   }
 }
@@ -279,6 +289,10 @@
     font-size: 5rem;
     padding-top: 5%;
     text-align: center;
+
+    @media (max-width: 340px) {
+      font-size: 4rem;
+    }
 
     @media (min-width: 992px) {
       font-size: 7.5rem;
